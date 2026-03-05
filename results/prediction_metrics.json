@@ -1,0 +1,13 @@
+{
+  "model": "Random Forest Classifier",
+  "total_samples": 1000,
+  "train_size": 800,
+  "test_size": 200,
+  "accuracy": 1.0,
+  "precision_hv": 1.0,
+  "recall_hv": 1.0,
+  "f1_hv": 1.0,
+  "cv_accuracy_mean": 0.999,
+  "cv_accuracy_std": 0.002,
+  "top_feature": "total_amount"
+}

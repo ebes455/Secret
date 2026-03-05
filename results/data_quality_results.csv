@@ -1,0 +1,19 @@
+table,total_rows,completeness_pct,consistency_pct,accuracy_pct,dq_score,model
+fact_sales,1000,100.0,100.0,100.0,100.0,Kimball Star Schema
+dim_customer,500,100.0,100.0,100.0,100.0,Kimball Star Schema
+dim_product,500,100.0,100.0,100.0,100.0,Kimball Star Schema
+dim_date,652,100.0,100.0,100.0,100.0,Kimball Star Schema
+sales,1000,100.0,100.0,100.0,100.0,Inmon 3NF
+customers,500,100.0,100.0,100.0,100.0,Inmon 3NF
+products,500,100.0,100.0,100.0,100.0,Inmon 3NF
+employees,500,98.33,100.0,100.0,99.44,Inmon 3NF
+finance_transactions,500,100.0,100.0,100.0,100.0,Inmon 3NF
+hub_customer,500,100.0,100.0,100.0,100.0,Data Vault 2.0
+hub_product,500,100.0,100.0,100.0,100.0,Data Vault 2.0
+lnk_sale,1000,100.0,100.0,100.0,100.0,Data Vault 2.0
+sat_sale_details,1000,100.0,100.0,100.0,100.0,Data Vault 2.0
+sat_finance_details,500,100.0,100.0,100.0,100.0,Data Vault 2.0
+analytics_sales_wide,1000,100.0,100.0,100.0,100.0,Unified DW + AI
+core_customers,500,100.0,100.0,100.0,100.0,Unified DW + AI
+core_finance,500,100.0,100.0,100.0,100.0,Unified DW + AI
+hist_customer_scd2,1000,100.0,100.0,100.0,100.0,Unified DW + AI

@@ -1,158 +1,119 @@
-# EDWH Hybrid Analytics PoC
+# Unified Data Warehouse (UDW) Research Project
 
-> **Unified and Flexible Analytics Architecture** — A Proof of Concept combining **Data Vault 2.0**, **Lakehouse**, and **AI-Augmented anomaly detection**.
+> **Research Methodology: Evaluating a Unified Data Warehouse Model**
 
-[![Laravel](https://img.shields.io/badge/Laravel-11-red?logo=laravel)](https://laravel.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green?logo=mongodb)](https://www.mongodb.com)
-[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://python.org)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8-orange)](https://scikit-learn.org)
-
----
-
-## 🏗️ Architecture Overview
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    EDWH Hybrid Analytics                         │
-├────────────────┬──────────────────────┬────────────────────────┤
-│  Data Vault 2.0│    Raw Lakehouse      │    AI Anomaly Engine   │
-│  (Structured)  │  (Unstructured)       │    (Python + sklearn)  │
-├────────────────┼──────────────────────┼────────────────────────┤
-│  Hub_Customers │  raw_data_lake        │  Isolation Forest      │
-│  Hub_Products  │  - server_logs        │  anomaly_reports       │
-│  Link_Txns     │  - customer_feedback  │  53 anomalies / 460 tx │
-│  Sat_Customer  │                       │                        │
-│  Sat_Product   │                       │                        │
-└────────────────┴──────────────────────┴────────────────────────┘
-         MongoDB 7.0 — Unified Data Store
-         Laravel 11 — Orchestration + REST API
-         Chart.js + Tailwind — BI Dashboard
-```
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Backend / Orchestration | PHP 8.2, Laravel 11 |
-| Database | MongoDB 7.0 |
-| AI / Anomaly Detection | Python 3.12, scikit-learn (Isolation Forest) |
-| Frontend Dashboard | Blade, Tailwind CSS CDN, Chart.js 4 |
-
----
-
-## ✨ Features
-
-### Data Vault 2.0
-- **Hub** collections for Customers and Products (SHA-256 hash keys)
-- **Link** collection for Transactions (business event tracking)
-- **Satellite** collections with `hash_diff` for change detection (SCD Type 2)
-
-### Lakehouse (Raw Data Lake)
-- Unstructured JSON storage for server logs and customer feedback
-- No transformation on ingest — stored as-is in MongoDB
-
-### ETL Pipeline
-```bash
-php artisan etl:ingest-structured --count=200    # Data Vault ingestion
-php artisan etl:ingest-unstructured --count=150  # Lakehouse ingestion
-php artisan analytics:detect-anomalies           # AI anomaly detection
-```
-
-### REST API (4 endpoints)
-| Endpoint | Description |
-|---|---|
-| `GET /api/analytics/summary` | KPI counts across all collections |
-| `GET /api/analytics/transactions` | Daily revenue + transaction time-series |
-| `GET /api/analytics/anomalies` | AI anomaly reports (`?severity=high\|medium\|low`) |
-| `GET /api/analytics/data-mart/sales` | Star-schema sales mart |
-
-### Premium BI Dashboard
-- Dark-themed glassmorphism UI
-- 5 KPI cards, revenue line chart, donut chart, category bars
-- AI anomaly severity table with real-time filtering
-
----
-
-## 🚀 Installation
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/edwh-hybrid-analytics.git
-cd edwh-hybrid-analytics
-
-# 2. Install PHP dependencies
-composer install
-
-# 3. Install Python dependencies
-pip install pymongo scikit-learn numpy
-
-# 4. Setup environment
-cp .env.example .env
-php artisan key:generate
-```
-
-Edit `.env`:
-```env
-DB_CONNECTION=mongodb
-DB_HOST=127.0.0.1
-DB_PORT=27017
-DB_DATABASE=edwh_analytics
-SESSION_DRIVER=file
-CACHE_STORE=file
-QUEUE_CONNECTION=sync
-```
-
-## ▶️ Running
-
-```bash
-# 1. Start MongoDB
-mongod --dbpath /data/db --port 27017
-
-# 2. Seed RBAC users
-php artisan db:seed --class=UserSeeder
-
-# 3. Run ETL + AI detection
-php artisan etl:ingest-structured --count=200
-php artisan etl:ingest-unstructured --count=150
-php artisan analytics:detect-anomalies
-
-# 4. Start the server
-php artisan serve
-```
-
-Open **http://127.0.0.1:8000/dashboard**
-
----
-
-## 🔐 RBAC Test Users
-
-| Role | Email | Password |
-|---|---|---|
-| Admin | admin@edwh.local | Admin@1234 |
-| Viewer | viewer@edwh.local | Viewer@1234 |
+A comprehensive research project that evaluates the effectiveness, scalability, and performance of a **Unified Data Warehouse (UDW)** model integrating Inmon, Kimball, Data Vault 2.0 features, and AI capabilities — focused on large organizations with 50+ heterogeneous data sources.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-app/
-├── Console/Commands/
-│   ├── IngestStructuredData.php     # ETL: Data Vault 2.0
-│   ├── IngestUnstructuredData.php   # ETL: Lakehouse
-│   └── DetectAnomalies.php          # Artisan → Python
-├── Http/
-│   ├── Controllers/Api/AnalyticsController.php
-│   └── Middleware/RoleMiddleware.php
-├── Models/Vault/                    # 7 MongoDB Eloquent models
-└── Services/AnomalyDetectionService.php
-scripts/
-├── anomaly_detector.py              # Isolation Forest engine
-└── seed_raw_lake.py                 # Direct MongoDB seeder
-resources/views/
-└── dashboard.blade.php              # Full BI Dashboard
+udw-research/
+├── data_simulation/       # Scripts to generate 50+ data sources
+│   └── generate_sources.py
+├── data/
+│   └── raw/
+│       ├── structured/    # CSV/SQL tables (sales, hr, finance, etc.)
+│       ├── semi_structured/ # JSON + XML files
+│       └── unstructured/  # Logs and text files
+├── models/                # DW model implementations
+│   ├── kimball_star_schema.py
+│   ├── inmon_3nf.py
+│   ├── data_vault_2.py
+│   └── unified_dw.py
+├── etl/                   # ETL pipeline runners
+│   └── etl_runner.py
+├── evaluation/            # Benchmarking and quality scripts
+│   ├── benchmark_queries.py
+│   ├── scalability_test.py
+│   └── data_quality.py
+├── ai/                    # AI models (anomaly detection + prediction)
+│   ├── anomaly_detection.py
+│   └── prediction_model.py
+├── results/               # Output charts, reports, CSVs
+│   └── generate_report.py
+├── requirements.txt
+└── README.md
 ```
 
-## 📄 License
+---
 
-MIT
+## 🎯 Research Objective
+
+Evaluate four DW architectures against 6 evaluation dimensions:
+
+| Evaluation Dimension | Metric | Method |
+|---|---|---|
+| Data Integration | % sources successfully integrated | ETL testing |
+| Historical Tracking | % historical changes preserved | Snapshot comparison |
+| Query Performance | Avg query response time (ms) | Benchmark queries |
+| Scalability | Effort & time to add new sources | Time log |
+| Maintainability | ETL/schema update effort | Man-hours |
+| AI Capabilities | Prediction accuracy, anomaly detection | Model evaluation |
+| Data Quality | Completeness, consistency, accuracy | Profiling reports |
+
+---
+
+## 🏗️ DW Models Compared
+
+| Model | Description |
+|---|---|
+| **Kimball Star Schema** | Fact + dimension tables, optimized for BI |
+| **Inmon 3NF (CIF)** | Normalized enterprise-wide DW |
+| **Data Vault 2.0** | Hub + Link + Satellite pattern |
+| **Unified DW + AI** | Hybrid model with AI-ready analytics layer |
+
+---
+
+## 🚀 How to Run
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Generate simulated data (50+ sources)
+```bash
+python data_simulation/generate_sources.py
+```
+
+### 3. Run ETL pipelines (loads all models)
+```bash
+python etl/etl_runner.py
+```
+
+### 4. Run evaluation benchmarks
+```bash
+python evaluation/benchmark_queries.py
+python evaluation/scalability_test.py
+python evaluation/data_quality.py
+```
+
+### 5. Run AI modules
+```bash
+python ai/anomaly_detection.py
+python ai/prediction_model.py
+```
+
+### 6. Generate final report
+```bash
+python results/generate_report.py
+```
+
+---
+
+## 📊 Results
+
+All results are saved to the `results/` directory:
+- `results_summary.xlsx` — full metrics comparison table
+- `research_report.pdf` — final research report with charts
+
+---
+
+## 🧑‍💻 Tech Stack
+- **Python 3.12**
+- pandas, numpy, SQLAlchemy, scikit-learn
+- matplotlib, seaborn, fpdf2, openpyxl
+- SQLite (in-memory DW backends)
+- Faker (data simulation)
