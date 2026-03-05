@@ -1,5 +1,5 @@
 model,status,build_time_s,error,total_sources,integration_success_pct,historical_tracking_pct
-Kimball Star Schema,SUCCESS,0.08,,55,100.0,100.0
-Inmon 3NF,SUCCESS,0.121,,55,100.0,100.0
-Data Vault 2.0,SUCCESS,0.098,,55,100.0,100.0
-Unified DW + AI,SUCCESS,0.083,,55,100.0,100.0
+Kimball Star Schema,SUCCESS,0.084,,55,100.0,100.0
+Inmon 3NF,SUCCESS,0.146,,55,100.0,100.0
+Data Vault 2.0,SUCCESS,0.127,,55,100.0,100.0
+Unified DW + AI,SUCCESS,0.094,,55,100.0,100.0

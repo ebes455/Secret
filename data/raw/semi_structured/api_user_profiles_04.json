@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "3c76cf5b-f9ee-4687-8a41-1b06053b2764",
+    "name": "Paul Patterson",
+    "email": "rachel33@example.com",
+    "created_at": "2024-09-28T04:07:02",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "825aac2e-9796-4ef5-acc0-1241ea336701",
+    "name": "Alexander Webb",
+    "email": "bwade@example.com",
+    "created_at": "2025-03-05T14:50:37",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "e79e9573-e33d-42e9-8a9d-0590b36a7314",
+    "name": "Timothy White",
+    "email": "robertbarron@example.com",
+    "created_at": "2026-02-10T13:09:52",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "c6ae96ec-47fd-44ee-a472-8ffc931b5970",
+    "name": "Alan Hunt",
+    "email": "gmurphy@example.com",
+    "created_at": "2025-08-12T00:58:23",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "0bf3ee35-d392-4553-8eef-3ff29909131b",
+    "name": "Paul Armstrong",
+    "email": "kevinli@example.net",
+    "created_at": "2025-04-08T19:41:53",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "d90a8d20-de53-42d6-9e2f-d4afb18fbcd3",
+    "name": "Karen Ross",
+    "email": "lauren50@example.net",
+    "created_at": "2025-07-12T09:31:54",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "23956ed7-2357-448a-922d-2afe4d7ca758",
+    "name": "Melissa Brown",
+    "email": "whubbard@example.org",
+    "created_at": "2025-05-02T03:27:23",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "b9296f54-aecb-4625-a6c6-ea9bdd43fb54",
+    "name": "Jason Harris",
+    "email": "farmerrichard@example.org",
+    "created_at": "2025-05-27T15:10:47",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "e574cdde-ad19-478e-b64f-f128ee519882",
+    "name": "Karen Harding",
+    "email": "katiehicks@example.net",
+    "created_at": "2024-05-05T23:43:58",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "d0ffa971-910f-4f44-bec5-2f69ac436e12",
+    "name": "Caitlin Wilson",
+    "email": "robertmorris@example.org",
+    "created_at": "2025-10-25T21:17:43",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "1726e178-76b1-4d87-bbbe-d1b4cde57aa6",
+    "name": "Thomas Smith",
+    "email": "tshort@example.net",
+    "created_at": "2024-09-24T14:28:08",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "4abc5d91-965a-48c5-a7bc-d5a72bef0136",
+    "name": "Daniel Dominguez",
+    "email": "teresamiller@example.org",
+    "created_at": "2024-11-13T15:21:09",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "a3c595c8-fd54-44ec-afe4-fdbb4d6fc7e3",
+    "name": "Alicia Campbell",
+    "email": "ycole@example.net",
+    "created_at": "2024-07-22T07:17:42",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "d1cc7531-5708-4618-9def-23a1104226f6",
+    "name": "Cheryl Richardson",
+    "email": "susannelson@example.net",
+    "created_at": "2026-02-11T12:14:48",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "4726d174-c699-4c22-be14-6c81833bb2f3",
+    "name": "Danielle Brown",
+    "email": "kirstenbenson@example.net",
+    "created_at": "2024-05-02T07:14:04",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "1c94d5c6-89ed-4d64-b984-933d7745c60d",
+    "name": "Jonathan Pennington",
+    "email": "pwalters@example.com",
+    "created_at": "2025-08-01T23:57:26",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "57ff5548-1d28-47a0-ad84-5afe38c77dca",
+    "name": "Kelsey Shields",
+    "email": "garciadebra@example.com",
+    "created_at": "2026-01-19T05:24:29",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "b903b981-ebc7-4f45-94b7-177bc5bbed6c",
+    "name": "Stephanie Valdez",
+    "email": "murphyjames@example.com",
+    "created_at": "2025-10-27T12:21:41",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "0ded1b4d-79d8-4ee9-9d4b-c9140bdfa5f0",
+    "name": "Vanessa Gutierrez",
+    "email": "brad03@example.org",
+    "created_at": "2025-04-07T09:01:45",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "848036ad-080c-4f78-8a17-8298a10cf398",
+    "name": "Sharon Trevino",
+    "email": "jmoore@example.net",
+    "created_at": "2024-07-11T09:47:51",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "8cde5998-6a24-4a0c-b224-7b8d99c36e15",
+    "name": "Sergio Phillips",
+    "email": "megan50@example.net",
+    "created_at": "2025-12-25T12:08:25",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "842ede07-25b5-4a9a-b528-1c2c04ecf2fc",
+    "name": "Lauren Morgan",
+    "email": "darleneowens@example.com",
+    "created_at": "2024-05-12T18:22:57",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "008f03ca-8a32-405e-ab40-335213445e51",
+    "name": "Kevin Rodriguez",
+    "email": "kgarrison@example.com",
+    "created_at": "2025-01-14T05:47:24",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "8eb64f1d-03fb-4a22-a1e7-0b5864546b25",
+    "name": "Casey Smith",
+    "email": "bryantcynthia@example.org",
+    "created_at": "2026-02-19T13:30:39",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "e6bf3285-ac2a-40f6-b1d2-81dc6bd8f4a3",
+    "name": "Diana Robinson",
+    "email": "lmccoy@example.net",
+    "created_at": "2024-09-17T08:29:37",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "ae331288-859c-47d7-bf91-e34055818a42",
+    "name": "Kari Smith",
+    "email": "alexfrancis@example.net",
+    "created_at": "2026-02-25T11:29:09",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "298ce7b4-4c5a-4b5f-a481-b50ca8624894",
+    "name": "Jacqueline Russell",
+    "email": "richardssheila@example.org",
+    "created_at": "2024-08-24T20:32:22",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "024adee9-3fa7-4273-9d3e-4cae75622dff",
+    "name": "Theodore Hudson",
+    "email": "tmorrow@example.org",
+    "created_at": "2024-09-14T21:39:30",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "c2d3d967-a626-43ed-a070-e32e9c2be697",
+    "name": "Carlos Webster",
+    "email": "nicholasanderson@example.net",
+    "created_at": "2024-10-30T06:33:27",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "38e909f0-5ad8-47ba-9a18-1f580ac26396",
+    "name": "Jessica Mason",
+    "email": "graveslisa@example.com",
+    "created_at": "2025-10-30T18:09:59",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "042a2952-adfe-44e5-8744-0006f10eb0ea",
+    "name": "Shelly Wilcox",
+    "email": "mary88@example.org",
+    "created_at": "2024-06-05T02:21:08",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "91e89b6d-b783-44cb-9fd0-b3e05a2ee6fa",
+    "name": "Jonathan Holmes",
+    "email": "sheila66@example.org",
+    "created_at": "2024-08-05T05:58:07",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "6d8a0997-3b17-472b-a08e-6afff5f26a5f",
+    "name": "Jamie Ford",
+    "email": "ecampbell@example.org",
+    "created_at": "2024-12-19T08:49:21",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "d10c7983-9123-4a9d-8f77-283d94dbaa54",
+    "name": "Dr. Stephen Stein",
+    "email": "kaitlynbean@example.org",
+    "created_at": "2025-06-17T13:35:49",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "2a70ec30-2f3c-415a-a30f-426886415cd2",
+    "name": "Kristy Anderson",
+    "email": "ebutler@example.com",
+    "created_at": "2026-02-26T05:33:52",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "2d4aad08-687e-43fb-955a-274091b6d376",
+    "name": "Gregory Bishop",
+    "email": "briannamclaughlin@example.net",
+    "created_at": "2025-05-04T13:10:50",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "c06204a2-5213-4852-b720-46a83f798afb",
+    "name": "Karen Kaufman",
+    "email": "cmckinney@example.net",
+    "created_at": "2024-07-28T06:03:58",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "6f0f5fdc-c7ee-4466-aa96-dda45f4676a1",
+    "name": "Bryan Scott",
+    "email": "brandonmeza@example.com",
+    "created_at": "2026-01-29T02:41:02",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "187c3bb0-3f3c-48ee-9027-38b79ba67574",
+    "name": "Larry Reese",
+    "email": "mooredavid@example.org",
+    "created_at": "2024-03-27T13:28:35",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "4a22c21e-1106-4c0d-a595-002101219aeb",
+    "name": "Matthew Barrett",
+    "email": "jspears@example.net",
+    "created_at": "2025-09-18T10:04:05",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "f4e2b0db-113d-4d29-b1a3-1b44bf3aee2d",
+    "name": "Natalie Stanley",
+    "email": "harrelljessica@example.net",
+    "created_at": "2024-04-28T16:58:03",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "044550e7-1e42-4e2d-8cee-d03837bcf79a",
+    "name": "Robert Simpson",
+    "email": "rachelbridges@example.com",
+    "created_at": "2024-06-15T14:44:03",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "8a47055f-9ce6-4abe-9768-65b1087df61d",
+    "name": "Garrett Powers",
+    "email": "ernest24@example.org",
+    "created_at": "2024-11-15T17:09:16",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "a62289e0-b59c-4c87-b839-14c99eff689a",
+    "name": "Joseph Hall",
+    "email": "anthonyrandolph@example.com",
+    "created_at": "2025-01-31T07:12:12",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "1a30a775-cce6-4d28-b141-be049bcf4139",
+    "name": "Debbie Bullock",
+    "email": "kmartinez@example.net",
+    "created_at": "2026-02-18T07:26:13",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "08b14a37-d103-47ba-ba9f-8b46f9082fbd",
+    "name": "Shannon Morales",
+    "email": "natashamiller@example.net",
+    "created_at": "2024-12-12T21:23:36",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "00b611a2-ef6c-4067-a0c1-2b8a3efa2d4e",
+    "name": "Jason Garcia",
+    "email": "earmstrong@example.org",
+    "created_at": "2025-10-14T07:10:43",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "bb87b957-ea54-40e5-a6d1-b539c3b50b86",
+    "name": "Patricia Atkinson",
+    "email": "collinslaura@example.com",
+    "created_at": "2025-03-20T22:59:52",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "29d2680a-b5f8-41b0-9eda-228c41f3e01c",
+    "name": "Vincent Douglas",
+    "email": "uguerrero@example.com",
+    "created_at": "2024-05-19T01:40:20",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "7d7d38cf-7f07-414d-8d44-b7c1034273dd",
+    "name": "Martin Jones DVM",
+    "email": "bryan61@example.net",
+    "created_at": "2025-10-17T11:35:55",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "0b845de2-f74b-482f-ade9-2307a9ca27f7",
+    "name": "Gavin Howell",
+    "email": "garzazachary@example.org",
+    "created_at": "2024-08-14T20:46:48",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "4c5b6bf4-309b-4c9a-8a52-11cf75a9c71f",
+    "name": "Rita Christian",
+    "email": "joshua74@example.net",
+    "created_at": "2025-06-20T18:03:18",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "7e4e4d70-455b-47a1-879c-6ed500059930",
+    "name": "Jeremy Benjamin",
+    "email": "xcline@example.org",
+    "created_at": "2024-11-04T14:42:30",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "f7fb7406-ec4a-4dfd-90d0-fd27fc87aa39",
+    "name": "Melissa Ruiz",
+    "email": "charles91@example.com",
+    "created_at": "2025-07-07T00:25:39",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "b024c6a7-eb3e-483a-ba3a-9fe008bbd3f5",
+    "name": "Rachael Howard",
+    "email": "qneal@example.org",
+    "created_at": "2026-01-04T18:33:38",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "1415c20e-58dc-4a99-97d4-b6bd89c8521e",
+    "name": "James Bonilla",
+    "email": "jacobscharles@example.com",
+    "created_at": "2025-04-04T00:59:00",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "8b6b7f7a-58a8-4686-9824-e832005f6552",
+    "name": "Monica Morton",
+    "email": "paula74@example.com",
+    "created_at": "2025-09-13T17:02:12",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "ab489f7a-6474-4dce-9e80-e9b9ccff0bde",
+    "name": "Lance Wilson",
+    "email": "fwilliams@example.com",
+    "created_at": "2024-03-06T20:54:21",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "967c2be7-02e5-4343-88f9-75a10cf2b534",
+    "name": "Ronald Smith",
+    "email": "luis41@example.net",
+    "created_at": "2024-10-05T09:09:11",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "c2da09ee-fe94-4f67-84b4-3910fc1616b1",
+    "name": "Thomas Joseph",
+    "email": "gregorybrock@example.org",
+    "created_at": "2025-08-15T16:57:27",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "64c6a7c7-61f3-40e5-96ac-48c935816cb4",
+    "name": "Pamela Rodgers",
+    "email": "allennathan@example.net",
+    "created_at": "2025-05-09T14:44:49",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "4758f609-f2d2-4f14-af3a-e9ef663b28bc",
+    "name": "Melissa Smith",
+    "email": "aferguson@example.org",
+    "created_at": "2025-01-03T01:18:38",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "b2a3f8e5-9bab-49cf-a84e-8078525aaa7d",
+    "name": "Wesley Reyes",
+    "email": "nfletcher@example.org",
+    "created_at": "2025-09-16T20:45:07",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "6ae2d4fa-b888-4244-97b1-14de3c9a5634",
+    "name": "Anthony Lee",
+    "email": "bevans@example.net",
+    "created_at": "2026-02-07T22:52:28",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "c3182415-0dad-4c7b-a666-93e381d9beae",
+    "name": "Jessica Williams",
+    "email": "criddle@example.net",
+    "created_at": "2024-07-13T09:57:06",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "b734197d-adf3-4371-baa2-e2d80a80b290",
+    "name": "Michael Davis",
+    "email": "michelle11@example.org",
+    "created_at": "2025-08-15T12:47:50",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "cf8dc32d-252f-48ef-a914-7761db2d3a13",
+    "name": "Brett Rogers",
+    "email": "angela80@example.com",
+    "created_at": "2024-07-09T09:25:21",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "2fbc8b9b-3db0-4210-a63b-312bcce33ef8",
+    "name": "Ashley Douglas",
+    "email": "phillipsshawn@example.net",
+    "created_at": "2025-08-08T22:05:25",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "04a182cf-2590-41ab-a8af-c82bfcdfb559",
+    "name": "Kyle Ruiz",
+    "email": "alvarezstephanie@example.com",
+    "created_at": "2025-09-08T03:50:33",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "b9f5f903-7af1-434d-8bd8-14a2474cd1a1",
+    "name": "Rachel Boyer",
+    "email": "samanthawoodard@example.org",
+    "created_at": "2025-02-12T11:36:34",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "63f15a67-4a0d-44cc-9043-1241c02edc3d",
+    "name": "Samantha Armstrong",
+    "email": "barbarafisher@example.com",
+    "created_at": "2025-11-19T04:36:39",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "21dc7b1d-687e-487e-bf6f-f6826332472c",
+    "name": "Catherine Murphy",
+    "email": "xlivingston@example.org",
+    "created_at": "2024-03-15T08:24:21",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "12dc3274-6265-455d-bfc1-1afd234b4f71",
+    "name": "Elizabeth Anderson",
+    "email": "chess@example.org",
+    "created_at": "2024-08-19T14:45:53",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "66ba9945-8455-44ef-a365-1ce9e8274a4f",
+    "name": "Timothy Williams",
+    "email": "bobfoster@example.com",
+    "created_at": "2025-12-08T20:46:09",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "21178e9f-0b44-4f4d-9ef7-88de02241f4c",
+    "name": "Stacy Miller",
+    "email": "aadams@example.net",
+    "created_at": "2025-05-02T02:35:31",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "dc0d81f3-02cd-4d8f-9ee5-15449677fc87",
+    "name": "Andrew Wilson",
+    "email": "brianyang@example.net",
+    "created_at": "2024-03-27T03:48:41",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "05f7591a-22a0-4cb0-9d65-ec0124a64a6b",
+    "name": "Gina Barker",
+    "email": "ksherman@example.com",
+    "created_at": "2025-08-27T11:12:34",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "db8307d9-3b34-4275-9ddd-f5df98f2dd3e",
+    "name": "Matthew Lopez",
+    "email": "nwilliams@example.net",
+    "created_at": "2025-04-23T02:51:53",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "dcf03433-220f-4e18-8b01-e9636e2d9483",
+    "name": "Hannah Briggs",
+    "email": "qmichael@example.com",
+    "created_at": "2024-09-21T00:15:13",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "a15275d6-fb42-4ef0-85fa-8cb6cfb2af29",
+    "name": "Breanna Flores",
+    "email": "heather53@example.net",
+    "created_at": "2024-05-14T02:55:24",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "a1706c93-042b-449e-8eb4-40cb1fd5c6dd",
+    "name": "Michelle Larson",
+    "email": "crystal83@example.com",
+    "created_at": "2026-01-22T04:49:02",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "c31844cf-4872-4a99-9863-7fe1d6c69578",
+    "name": "William Moore",
+    "email": "carlajennings@example.org",
+    "created_at": "2024-06-08T14:04:50",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "0d65b0dd-7ebb-4b45-9dd4-f9f47e4a721e",
+    "name": "Jason Smith",
+    "email": "agarcia@example.org",
+    "created_at": "2024-10-31T06:00:45",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "7298dc1d-07cd-41e3-ac4d-79e08ab0d57f",
+    "name": "Jerry Bowman",
+    "email": "zwinters@example.org",
+    "created_at": "2024-06-14T14:15:00",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "fe8ac951-ccbe-4f51-9a73-24eb325d930b",
+    "name": "Jonathan Johnson",
+    "email": "stephanie01@example.com",
+    "created_at": "2024-08-30T17:39:54",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "f37d1ad9-a282-4d49-b9d0-5e4eadec8d32",
+    "name": "Jonathan Davis",
+    "email": "hbrown@example.com",
+    "created_at": "2025-05-23T03:04:55",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "2de2da2b-2102-45ad-9f98-6ebb0fd4a3c9",
+    "name": "Benjamin Sanchez",
+    "email": "kyle94@example.org",
+    "created_at": "2025-09-06T23:38:21",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "bb5f4cf5-43a3-4e86-b7f8-14cd6018a71b",
+    "name": "Cindy Frazier",
+    "email": "heather79@example.org",
+    "created_at": "2024-11-07T19:13:29",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "929a7800-1f84-4586-b5d1-f63bb901aec9",
+    "name": "Angela Day",
+    "email": "vgraham@example.com",
+    "created_at": "2025-12-23T03:20:53",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "36fda98d-94ab-44e9-a794-e589b7efef05",
+    "name": "James Martinez",
+    "email": "jamesmorris@example.net",
+    "created_at": "2025-03-24T04:14:26",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "8f3fba72-aba9-469e-a090-433b438b398d",
+    "name": "Joshua Smith",
+    "email": "lwilliams@example.org",
+    "created_at": "2025-10-05T06:52:16",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "795b325e-d8fa-448d-ba6f-d125b1ae3df9",
+    "name": "Ann Baker",
+    "email": "shaffercraig@example.org",
+    "created_at": "2024-07-10T02:48:56",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "6eb771e4-5c21-445e-9a7d-027506895be0",
+    "name": "Daniel Jefferson Jr.",
+    "email": "rlewis@example.org",
+    "created_at": "2024-08-15T03:36:17",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "67a5b989-dc51-4056-bf90-07e890c61381",
+    "name": "Andrew Oneill",
+    "email": "marcohines@example.com",
+    "created_at": "2026-02-28T20:06:29",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "de"
+    }
+  },
+  {
+    "id": "75cef7db-f6d2-44aa-a551-26a3cdcc049e",
+    "name": "Scott Delgado",
+    "email": "frederick73@example.net",
+    "created_at": "2026-02-27T12:03:30",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "ur"
+    }
+  },
+  {
+    "id": "b88edf3a-394d-45ac-a8d1-f460b588247f",
+    "name": "Gina Taylor",
+    "email": "johnwhite@example.net",
+    "created_at": "2024-05-16T17:31:01",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "fr"
+    }
+  },
+  {
+    "id": "0008b748-fdd7-412f-b051-411b405945b1",
+    "name": "Luis Perez",
+    "email": "zacharycarter@example.org",
+    "created_at": "2024-10-21T09:44:35",
+    "preferences": {
+      "newsletter": false,
+      "theme": "dark",
+      "language": "de"
+    }
+  },
+  {
+    "id": "9aca56fc-1212-4ae7-a8eb-77097ea0fd8d",
+    "name": "Brittany Franklin",
+    "email": "urivera@example.org",
+    "created_at": "2024-11-14T17:50:13",
+    "preferences": {
+      "newsletter": true,
+      "theme": "light",
+      "language": "en"
+    }
+  },
+  {
+    "id": "5793a319-b0a6-41c9-84cb-6c8dd7bde1f5",
+    "name": "James Melendez",
+    "email": "kmorris@example.net",
+    "created_at": "2025-06-21T01:50:56",
+    "preferences": {
+      "newsletter": true,
+      "theme": "dark",
+      "language": "en"
+    }
+  },
+  {
+    "id": "8d15d0d3-33a5-4356-91c6-d2ab9f516516",
+    "name": "Becky Smith",
+    "email": "pkramer@example.org",
+    "created_at": "2025-08-09T20:26:21",
+    "preferences": {
+      "newsletter": false,
+      "theme": "light",
+      "language": "ur"
+    }
+  }
+]

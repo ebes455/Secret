@@ -266,6 +266,37 @@
                     Sales Data Mart
                 </a>
 
+                <div class="text-xs font-semibold text-slate-600 uppercase tracking-widest mt-6 mb-3 px-3">UDW Research
+                </div>
+                <a class="sidebar-link" onclick="scrollToSection('udw-benchmark')">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    Query Benchmark
+                </a>
+                <a class="sidebar-link" onclick="scrollToSection('udw-scalability')">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
+                    Scalability
+                </a>
+                <a class="sidebar-link" onclick="scrollToSection('udw-dq')">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Data Quality
+                </a>
+                <a class="sidebar-link" onclick="scrollToSection('udw-ai')">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                    AI Capabilities
+                </a>
+
                 <div class="text-xs font-semibold text-slate-600 uppercase tracking-widest mt-6 mb-3 px-3">Architecture
                 </div>
                 <div class="px-3 py-2 text-xs text-slate-500 space-y-2">
@@ -303,6 +334,14 @@
                     <p class="text-xs text-slate-500">Data Vault 2.0 · Lakehouse · AI-Augmented · MongoDB</p>
                 </div>
                 <div class="flex items-center gap-3">
+                    <a href="/research-report.pdf" target="_blank"
+                        class="flex items-center gap-2 text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg transition-all font-medium shadow-lg shadow-emerald-900/30">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Download Report
+                    </a>
                     <button onclick="refreshAll()" id="refresh-btn"
                         class="flex items-center gap-2 text-xs bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg transition-all font-medium shadow-lg shadow-indigo-900/30">
                         <svg id="refresh-icon" class="w-3.5 h-3.5" fill="none" stroke="currentColor"
@@ -560,6 +599,111 @@
                 </section>
 
             </div>
+
+            <!-- ======== UDW RESEARCH: BENCHMARK ======== -->
+            <div class="p-8 space-y-8">
+
+                <section id="udw-benchmark">
+                    <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">UDW Research — Query
+                        Benchmark</h2>
+                    <p class="text-xs text-slate-600 mb-4">Average query response time (ms) across 5 standardized
+                        queries × 5 runs per model</p>
+                    <!-- ETL KPIs -->
+                    <div id="udw-etl-kpis" class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6"></div>
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="glass-card rounded-2xl p-6">
+                            <h3 class="font-semibold text-white text-sm mb-1">Avg Query Time by Model</h3>
+                            <p class="text-xs text-slate-500 mb-4">Lower is better</p>
+                            <div class="chart-container"><canvas id="udwBenchmarkChart"></canvas></div>
+                        </div>
+                        <div class="glass-card rounded-2xl p-6 overflow-x-auto">
+                            <h3 class="font-semibold text-white text-sm mb-3">Detailed Query Results</h3>
+                            <table class="w-full text-xs" id="udw-benchmark-table">
+                                <thead>
+                                    <tr class="text-left text-slate-500 border-b border-indigo-900/20">
+                                        <th class="pb-2">Model</th>
+                                        <th class="pb-2">Query</th>
+                                        <th class="pb-2 text-right">Avg (ms)</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="udw-benchmark-tbody">
+                                    <tr>
+                                        <td colspan="3" class="py-8 text-center">
+                                            <div class="loading-shimmer h-4 rounded w-48 mx-auto"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======== UDW RESEARCH: SCALABILITY ======== -->
+                <section id="udw-scalability">
+                    <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">UDW Research —
+                        Scalability</h2>
+                    <p class="text-xs text-slate-600 mb-4">Time (ms) to integrate 5 new heterogeneous data sources per
+                        model</p>
+                    <div class="glass-card rounded-2xl p-6">
+                        <div class="chart-container" style="height:220px;"><canvas id="udwScalabilityChart"></canvas>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======== UDW RESEARCH: DATA QUALITY ======== -->
+                <section id="udw-dq">
+                    <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">UDW Research — Data
+                        Quality</h2>
+                    <p class="text-xs text-slate-600 mb-4">Completeness · Consistency · Accuracy scores per model</p>
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="glass-card rounded-2xl p-6">
+                            <h3 class="font-semibold text-white text-sm mb-3">DQ Score by Model</h3>
+                            <div class="chart-container"><canvas id="udwDQChart"></canvas></div>
+                        </div>
+                        <div class="glass-card rounded-2xl p-6 overflow-x-auto">
+                            <h3 class="font-semibold text-white text-sm mb-3">Per-Table DQ Breakdown</h3>
+                            <table class="w-full text-xs">
+                                <thead>
+                                    <tr class="text-left text-slate-500 border-b border-indigo-900/20">
+                                        <th class="pb-2">Model</th>
+                                        <th class="pb-2">Table</th>
+                                        <th class="pb-2 text-right">Complete</th>
+                                        <th class="pb-2 text-right">Score</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="udw-dq-tbody">
+                                    <tr>
+                                        <td colspan="4" class="py-8 text-center">
+                                            <div class="loading-shimmer h-4 rounded w-48 mx-auto"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======== UDW RESEARCH: AI CAPABILITIES ======== -->
+                <section id="udw-ai">
+                    <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">UDW Research — AI
+                        Capabilities</h2>
+                    <p class="text-xs text-slate-600 mb-4">Isolation Forest anomaly detection + Random Forest prediction
+                        model metrics</p>
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="glass-card rounded-2xl p-6">
+                            <h3 class="font-semibold text-white text-sm mb-4">AI Model Metrics (Precision · Recall · F1)
+                            </h3>
+                            <div class="chart-container"><canvas id="udwAIChart"></canvas></div>
+                        </div>
+                        <div class="glass-card rounded-2xl p-6">
+                            <h3 class="font-semibold text-white text-sm mb-4">Detailed Scores</h3>
+                            <div id="udw-ai-details" class="space-y-3 text-xs"></div>
+                        </div>
+                    </div>
+                </section>
+
+            </div><!-- /UDW Research wrapper -->
+
         </main>
     </div>
 
@@ -896,6 +1040,156 @@
             footer.innerText = `Showing ${anomalies.length} of ${count} total anomaly reports · Sorted by flagged time (desc)`;
         }
 
+        // ===================== UDW RESEARCH =====================
+        let udwBenchmarkChart, udwScalabilityChart, udwDQChart, udwAIChart;
+
+        async function fetchUdwResearch() {
+            try {
+                const res = await fetch('/api/analytics/udw-research');
+                const d = await res.json();
+
+                // --- ETL KPI cards ---
+                const etlColors = ['blue', 'green', 'amber', 'purple'];
+                const etlKpis = document.getElementById('udw-etl-kpis');
+                if (d.etl?.length) {
+                    etlKpis.innerHTML = d.etl.map((row, i) => `
+                        <div class="glass-card kpi-card ${etlColors[i] || 'blue'} rounded-2xl p-4">
+                            <div class="text-xs text-slate-400 mb-1">${row.model}</div>
+                            <div class="text-lg font-bold ${row.status === 'SUCCESS' ? 'text-emerald-400' : 'text-red-400'}">${row.status}</div>
+                            <div class="text-xs text-slate-500 mt-1">Build: ${parseFloat(row.build_time_s || 0).toFixed(2)}s</div>
+                        </div>`).join('');
+                }
+
+                // --- Benchmark chart ---
+                const modelColors = ['rgba(99,102,241,0.85)', 'rgba(139,92,246,0.85)', 'rgba(16,185,129,0.85)', 'rgba(245,158,11,0.85)'];
+                if (d.benchmark?.length) {
+                    // Aggregate: avg per model
+                    const agg = {};
+                    d.benchmark.forEach(r => { agg[r.model] = agg[r.model] || []; agg[r.model].push(parseFloat(r.avg_ms)); });
+                    const bLabels = Object.keys(agg);
+                    const bVals = bLabels.map(m => (agg[m].reduce((a, b) => a + b, 0) / agg[m].length).toFixed(3));
+
+                    if (udwBenchmarkChart) udwBenchmarkChart.destroy();
+                    udwBenchmarkChart = new Chart(document.getElementById('udwBenchmarkChart'), {
+                        type: 'bar',
+                        data: { labels: bLabels, datasets: [{ label: 'Avg ms', data: bVals, backgroundColor: modelColors, borderRadius: 6, borderSkipped: false }] },
+                        options: {
+                            responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } },
+                            scales: { x: { grid: { display: false } }, y: { grid: { color: 'rgba(99,102,241,0.06)' }, ticks: { callback: v => v + 'ms' } } }
+                        }
+                    });
+
+                    // Table
+                    document.getElementById('udw-benchmark-tbody').innerHTML = d.benchmark.slice(0, 20).map(r =>
+                        `<tr class="border-b border-indigo-900/10 hover:bg-indigo-900/10">
+                            <td class="py-1.5 text-indigo-300">${r.model}</td>
+                            <td class="py-1.5 text-slate-400">${r.query_name}</td>
+                            <td class="py-1.5 text-right font-mono text-emerald-400">${parseFloat(r.avg_ms).toFixed(3)}</td>
+                        </tr>`).join('');
+                }
+
+                // --- Scalability chart ---
+                if (d.scalability?.length) {
+                    const sLabels = d.scalability.map(r => r.model);
+                    const sVals = d.scalability.map(r => parseFloat(r.avg_time_per_source_ms));
+                    if (udwScalabilityChart) udwScalabilityChart.destroy();
+                    udwScalabilityChart = new Chart(document.getElementById('udwScalabilityChart'), {
+                        type: 'bar',
+                        data: { labels: sLabels, datasets: [{ label: 'ms/source', data: sVals, backgroundColor: modelColors, borderRadius: 6, borderSkipped: false }] },
+                        options: {
+                            responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } },
+                            scales: { x: { grid: { display: false } }, y: { grid: { color: 'rgba(99,102,241,0.06)' }, ticks: { callback: v => v + 'ms' } } }
+                        }
+                    });
+                }
+
+                // --- DQ chart ---
+                if (d.dq?.length) {
+                    const dqAgg = {};
+                    d.dq.forEach(r => {
+                        if (!dqAgg[r.model]) dqAgg[r.model] = { complete: [], score: [] };
+                        dqAgg[r.model].complete.push(parseFloat(r.completeness_pct || 0));
+                        dqAgg[r.model].score.push(parseFloat(r.dq_score || 0));
+                    });
+                    const dqLabels = Object.keys(dqAgg);
+                    const avg = arr => (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(1);
+                    const dqScores = dqLabels.map(m => avg(dqAgg[m].score));
+                    const dqComplete = dqLabels.map(m => avg(dqAgg[m].complete));
+
+                    if (udwDQChart) udwDQChart.destroy();
+                    udwDQChart = new Chart(document.getElementById('udwDQChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: dqLabels,
+                            datasets: [
+                                { label: 'DQ Score', data: dqScores, backgroundColor: 'rgba(16,185,129,0.8)', borderRadius: 4, borderSkipped: false },
+                                { label: 'Completeness', data: dqComplete, backgroundColor: 'rgba(99,102,241,0.6)', borderRadius: 4, borderSkipped: false }
+                            ]
+                        },
+                        options: {
+                            responsive: true, maintainAspectRatio: false,
+                            plugins: { legend: { labels: { color: 'rgba(148,163,184,0.8)', font: { size: 11 } } } },
+                            scales: { x: { grid: { display: false } }, y: { max: 100, grid: { color: 'rgba(99,102,241,0.06)' }, ticks: { callback: v => v + '%' } } }
+                        }
+                    });
+
+                    document.getElementById('udw-dq-tbody').innerHTML = d.dq.slice(0, 16).map(r =>
+                        `<tr class="border-b border-indigo-900/10 hover:bg-indigo-900/10">
+                            <td class="py-1.5 text-indigo-300">${r.model}</td>
+                            <td class="py-1.5 text-slate-400">${r.table_name}</td>
+                            <td class="py-1.5 text-right text-emerald-400">${parseFloat(r.completeness_pct).toFixed(1)}%</td>
+                            <td class="py-1.5 text-right font-semibold text-white">${parseFloat(r.dq_score).toFixed(1)}%</td>
+                        </tr>`).join('');
+                }
+
+                // --- AI chart ---
+                const an = d.anomaly || {}, pr = d.prediction || {};
+                const aiLabels = ['Anomaly Detection\n(Isolation Forest)', 'Prediction\n(Random Forest)'];
+                const precision = [parseFloat(an.precision_anomaly || 0), parseFloat(pr.precision_hv || 0)];
+                const recall = [parseFloat(an.recall_anomaly || 0), parseFloat(pr.recall_hv || 0)];
+                const f1 = [parseFloat(an.f1_anomaly || 0), parseFloat(pr.f1_hv || 0)];
+
+                if (udwAIChart) udwAIChart.destroy();
+                udwAIChart = new Chart(document.getElementById('udwAIChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: aiLabels,
+                        datasets: [
+                            { label: 'Precision', data: precision, backgroundColor: 'rgba(99,102,241,0.85)', borderRadius: 4, borderSkipped: false },
+                            { label: 'Recall', data: recall, backgroundColor: 'rgba(16,185,129,0.85)', borderRadius: 4, borderSkipped: false },
+                            { label: 'F1 Score', data: f1, backgroundColor: 'rgba(245,158,11,0.85)', borderRadius: 4, borderSkipped: false },
+                        ]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        plugins: { legend: { labels: { color: 'rgba(148,163,184,0.8)', font: { size: 11 } } } },
+                        scales: { x: { grid: { display: false } }, y: { max: 1, grid: { color: 'rgba(99,102,241,0.06)' } } }
+                    }
+                });
+
+                document.getElementById('udw-ai-details').innerHTML = `
+                    <div class="p-3 bg-indigo-900/20 border border-indigo-800/30 rounded-xl">
+                        <div class="text-indigo-400 font-semibold mb-2">Anomaly Detection (Isolation Forest)</div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>Precision: <span class="text-white font-bold">${(an.precision_anomaly || 0)}</span></div>
+                            <div>Recall: <span class="text-white font-bold">${(an.recall_anomaly || 0)}</span></div>
+                            <div>F1: <span class="text-emerald-400 font-bold">${(an.f1_anomaly || 0)}</span></div>
+                            <div>Accuracy: <span class="text-white font-bold">${(an.accuracy || 0)}</span></div>
+                        </div>
+                    </div>
+                    <div class="p-3 bg-purple-900/20 border border-purple-800/30 rounded-xl">
+                        <div class="text-purple-400 font-semibold mb-2">Prediction Model (Random Forest)</div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>Accuracy: <span class="text-white font-bold">${(pr.accuracy || 0)}</span></div>
+                            <div>F1 (HV): <span class="text-white font-bold">${(pr.f1_hv || 0)}</span></div>
+                            <div>CV Mean: <span class="text-emerald-400 font-bold">${(pr.cv_accuracy_mean || 0)}</span></div>
+                            <div>Top Feature: <span class="text-amber-400 font-bold">${(pr.top_feature || '—')}</span></div>
+                        </div>
+                    </div>`;
+
+            } catch (e) { console.warn('UDW Research data not available:', e.message); }
+        }
+
         // ===================== MAIN LOADER =====================
         async function refreshAll() {
             spinRefreshIcon(true);
@@ -907,6 +1201,7 @@
                     fetchTransactions(),
                     fetchAnomalies(),
                     fetchSalesMart(),
+                    fetchUdwResearch(),
                 ]);
                 document.getElementById('last-refresh').innerText = new Date().toLocaleTimeString();
             } catch (err) {

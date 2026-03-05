@@ -1,0 +1,1402 @@
+[
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T06:48:12",
+    "temperature": 20.76,
+    "humidity": 28.71,
+    "pressure": 987.66
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-11T03:12:26",
+    "temperature": 59.05,
+    "humidity": 47.52,
+    "pressure": 956.65
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T13:57:51",
+    "temperature": 79.96,
+    "humidity": 37.84,
+    "pressure": 999.51
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T19:24:01",
+    "temperature": 89.78,
+    "humidity": 58.55,
+    "pressure": 1032.12
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T04:47:09",
+    "temperature": 55.89,
+    "humidity": 49.43,
+    "pressure": 976.57
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T02:46:04",
+    "temperature": 93.53,
+    "humidity": 63.97,
+    "pressure": 998.96
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T00:18:29",
+    "temperature": 23.65,
+    "humidity": 50.6,
+    "pressure": 981.31
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T15:19:46",
+    "temperature": 26.18,
+    "humidity": 28.6,
+    "pressure": 1026.01
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-26T21:26:48",
+    "temperature": 94.54,
+    "humidity": 22.87,
+    "pressure": 957.03
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-03T22:31:47",
+    "temperature": 23.6,
+    "humidity": 57.47,
+    "pressure": 962.74
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T14:02:12",
+    "temperature": 22.67,
+    "humidity": 72.01,
+    "pressure": 992.33
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-05T23:19:45",
+    "temperature": 18.19,
+    "humidity": 66.22,
+    "pressure": 955.99
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T01:41:18",
+    "temperature": 23.91,
+    "humidity": 88.38,
+    "pressure": 1021.96
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T23:05:31",
+    "temperature": 37.74,
+    "humidity": 36.85,
+    "pressure": 972.04
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T07:23:22",
+    "temperature": 63.29,
+    "humidity": 72.62,
+    "pressure": 1042.79
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T03:38:53",
+    "temperature": 43.28,
+    "humidity": 36.55,
+    "pressure": 952.3
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T12:51:53",
+    "temperature": 61.73,
+    "humidity": 73.36,
+    "pressure": 967.18
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T08:24:16",
+    "temperature": 92.31,
+    "humidity": 46.83,
+    "pressure": 1004.17
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T14:45:16",
+    "temperature": 16.4,
+    "humidity": 31.23,
+    "pressure": 1007.12
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-05T05:30:22",
+    "temperature": 64.13,
+    "humidity": 88.19,
+    "pressure": 1030.96
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T20:38:49",
+    "temperature": 24.97,
+    "humidity": 37.23,
+    "pressure": 990.64
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T14:42:12",
+    "temperature": 34.36,
+    "humidity": 62.67,
+    "pressure": 1039.19
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T09:16:20",
+    "temperature": 88.41,
+    "humidity": 39.56,
+    "pressure": 950.32
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T16:27:09",
+    "temperature": 68.69,
+    "humidity": 50.46,
+    "pressure": 1036.09
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T08:13:34",
+    "temperature": 82.97,
+    "humidity": 51.23,
+    "pressure": 973.22
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T22:42:28",
+    "temperature": 82.78,
+    "humidity": 48.6,
+    "pressure": 994.41
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-28T02:55:11",
+    "temperature": 27.03,
+    "humidity": 82.17,
+    "pressure": 1035.06
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T08:56:26",
+    "temperature": 75.06,
+    "humidity": 21.61,
+    "pressure": 1026.51
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-20T20:02:51",
+    "temperature": 31.41,
+    "humidity": 67.13,
+    "pressure": 993.67
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-20T19:36:16",
+    "temperature": 85.01,
+    "humidity": 43.96,
+    "pressure": 952.07
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-06T04:39:02",
+    "temperature": 55.6,
+    "humidity": 47.15,
+    "pressure": 994.22
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T23:28:39",
+    "temperature": 31.44,
+    "humidity": 30.12,
+    "pressure": 957.74
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T11:23:26",
+    "temperature": 81.96,
+    "humidity": 67.83,
+    "pressure": 966.84
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T04:32:12",
+    "temperature": 47.32,
+    "humidity": 35.25,
+    "pressure": 985.33
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-15T15:00:59",
+    "temperature": 36.93,
+    "humidity": 70.05,
+    "pressure": 1039.85
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T20:20:21",
+    "temperature": 45.36,
+    "humidity": 81.44,
+    "pressure": 1046.07
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-05T00:22:40",
+    "temperature": 69.92,
+    "humidity": 59.43,
+    "pressure": 1014.55
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T16:00:04",
+    "temperature": 20.18,
+    "humidity": 69.91,
+    "pressure": 952.19
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T04:56:40",
+    "temperature": 60.73,
+    "humidity": 45.17,
+    "pressure": 952.05
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T06:22:38",
+    "temperature": 49.9,
+    "humidity": 51.17,
+    "pressure": 992.41
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T18:59:19",
+    "temperature": 49.99,
+    "humidity": 44.38,
+    "pressure": 976.91
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-18T02:56:28",
+    "temperature": 87.93,
+    "humidity": 38.19,
+    "pressure": 965.81
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T14:42:24",
+    "temperature": 32.53,
+    "humidity": 60.98,
+    "pressure": 1001.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T09:55:16",
+    "temperature": 57.47,
+    "humidity": 33.7,
+    "pressure": 953.63
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T04:02:42",
+    "temperature": 45.52,
+    "humidity": 23.36,
+    "pressure": 972.86
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T19:28:29",
+    "temperature": 71.57,
+    "humidity": 31.11,
+    "pressure": 1011.54
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T11:52:21",
+    "temperature": 59.23,
+    "humidity": 37.53,
+    "pressure": 1002.53
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T22:46:19",
+    "temperature": 35.41,
+    "humidity": 30.43,
+    "pressure": 964.16
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-03T16:10:23",
+    "temperature": 49.87,
+    "humidity": 80.97,
+    "pressure": 968.6
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T22:26:01",
+    "temperature": 47.76,
+    "humidity": 31.66,
+    "pressure": 956.68
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T14:32:33",
+    "temperature": 84.74,
+    "humidity": 63.47,
+    "pressure": 1007.26
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T13:22:54",
+    "temperature": 77.65,
+    "humidity": 81.03,
+    "pressure": 1036.68
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-11T09:07:01",
+    "temperature": 74.29,
+    "humidity": 40.18,
+    "pressure": 997.02
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T06:43:40",
+    "temperature": 48.86,
+    "humidity": 31.75,
+    "pressure": 951.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T11:19:44",
+    "temperature": 91.91,
+    "humidity": 62.18,
+    "pressure": 957.7
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T13:04:40",
+    "temperature": 76.83,
+    "humidity": 38.83,
+    "pressure": 1028.31
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-11T11:03:39",
+    "temperature": 57.72,
+    "humidity": 74.53,
+    "pressure": 1005.34
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T23:10:54",
+    "temperature": 44.51,
+    "humidity": 32.52,
+    "pressure": 1003.37
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T19:09:09",
+    "temperature": 29.94,
+    "humidity": 75.08,
+    "pressure": 982.55
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T07:41:16",
+    "temperature": 28.74,
+    "humidity": 39.06,
+    "pressure": 1031.33
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-08T23:05:29",
+    "temperature": 55.07,
+    "humidity": 82.64,
+    "pressure": 989.38
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T13:17:26",
+    "temperature": 28.36,
+    "humidity": 52.83,
+    "pressure": 1034.65
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T14:31:51",
+    "temperature": 34.35,
+    "humidity": 62.63,
+    "pressure": 986.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T09:19:47",
+    "temperature": 77.65,
+    "humidity": 52.37,
+    "pressure": 995.49
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-15T16:10:14",
+    "temperature": 71.82,
+    "humidity": 69.94,
+    "pressure": 966.21
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T18:24:04",
+    "temperature": 63.48,
+    "humidity": 22.96,
+    "pressure": 1048.29
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T05:00:09",
+    "temperature": 25.87,
+    "humidity": 40.1,
+    "pressure": 1002.89
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T22:21:47",
+    "temperature": 54.2,
+    "humidity": 72.8,
+    "pressure": 1005.03
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T22:27:38",
+    "temperature": 73.1,
+    "humidity": 82.22,
+    "pressure": 996.66
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T04:37:21",
+    "temperature": 66.79,
+    "humidity": 56.38,
+    "pressure": 1028.64
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-18T19:42:32",
+    "temperature": 61.2,
+    "humidity": 78.63,
+    "pressure": 990.52
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T04:47:12",
+    "temperature": 35.11,
+    "humidity": 85.58,
+    "pressure": 966.69
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T14:30:41",
+    "temperature": 83.63,
+    "humidity": 28.84,
+    "pressure": 953.64
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-08T04:22:52",
+    "temperature": 20.87,
+    "humidity": 89.63,
+    "pressure": 1034.19
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-28T05:52:54",
+    "temperature": 24.24,
+    "humidity": 83.29,
+    "pressure": 988.26
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-28T04:11:36",
+    "temperature": 38.96,
+    "humidity": 21.67,
+    "pressure": 998.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-05T04:00:17",
+    "temperature": 75.02,
+    "humidity": 35.09,
+    "pressure": 1027.51
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-01T04:09:03",
+    "temperature": 75.03,
+    "humidity": 51.5,
+    "pressure": 1009.04
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T04:36:19",
+    "temperature": 75.7,
+    "humidity": 29.79,
+    "pressure": 1029.38
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T02:25:33",
+    "temperature": 46.71,
+    "humidity": 29.96,
+    "pressure": 1040.05
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-05T05:53:58",
+    "temperature": 87.29,
+    "humidity": 37.7,
+    "pressure": 989.92
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-08T00:30:22",
+    "temperature": 72.03,
+    "humidity": 46.01,
+    "pressure": 970.47
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T01:04:26",
+    "temperature": 25.43,
+    "humidity": 87.17,
+    "pressure": 974.54
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T10:05:59",
+    "temperature": 26.64,
+    "humidity": 64.8,
+    "pressure": 960.13
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T21:58:01",
+    "temperature": 44.92,
+    "humidity": 44.54,
+    "pressure": 1040.94
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-18T08:43:34",
+    "temperature": 85.96,
+    "humidity": 81.05,
+    "pressure": 957.81
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T08:50:06",
+    "temperature": 38.52,
+    "humidity": 77.48,
+    "pressure": 1005.16
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T10:11:35",
+    "temperature": 18.24,
+    "humidity": 88.7,
+    "pressure": 1034.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T23:22:01",
+    "temperature": 20.42,
+    "humidity": 43.2,
+    "pressure": 981.03
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T17:16:12",
+    "temperature": 55.54,
+    "humidity": 20.77,
+    "pressure": 960.13
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T01:25:30",
+    "temperature": 74.55,
+    "humidity": 59.31,
+    "pressure": 955.99
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T23:14:56",
+    "temperature": 55.76,
+    "humidity": 64.15,
+    "pressure": 987.13
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T00:25:30",
+    "temperature": 50.87,
+    "humidity": 43.38,
+    "pressure": 1011.29
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T10:19:55",
+    "temperature": 42.75,
+    "humidity": 42.86,
+    "pressure": 986.8
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T16:59:58",
+    "temperature": 79.1,
+    "humidity": 60.99,
+    "pressure": 1038.35
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T21:10:28",
+    "temperature": 75.68,
+    "humidity": 50.34,
+    "pressure": 1001.4
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T18:19:24",
+    "temperature": 68.31,
+    "humidity": 58.36,
+    "pressure": 1024.89
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T22:28:15",
+    "temperature": 55.48,
+    "humidity": 89.91,
+    "pressure": 965.33
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T15:15:13",
+    "temperature": 80.98,
+    "humidity": 43.11,
+    "pressure": 1021.43
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T07:42:04",
+    "temperature": 73.52,
+    "humidity": 64.46,
+    "pressure": 964.4
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T00:13:17",
+    "temperature": 75.97,
+    "humidity": 33.74,
+    "pressure": 1011.69
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-06T01:20:25",
+    "temperature": 37.06,
+    "humidity": 35.42,
+    "pressure": 954.4
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-20T23:05:58",
+    "temperature": 15.97,
+    "humidity": 29.31,
+    "pressure": 991.84
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-01T01:37:12",
+    "temperature": 30.49,
+    "humidity": 75.96,
+    "pressure": 1038.32
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T17:00:47",
+    "temperature": 49.15,
+    "humidity": 59.77,
+    "pressure": 1049.04
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T04:16:12",
+    "temperature": 31.85,
+    "humidity": 89.37,
+    "pressure": 966.34
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-15T04:16:56",
+    "temperature": 18.0,
+    "humidity": 70.91,
+    "pressure": 1028.7
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-15T22:00:51",
+    "temperature": 32.53,
+    "humidity": 84.06,
+    "pressure": 966.56
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T01:55:56",
+    "temperature": 68.81,
+    "humidity": 28.0,
+    "pressure": 1016.94
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-04T22:41:46",
+    "temperature": 79.94,
+    "humidity": 43.99,
+    "pressure": 1022.79
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T22:52:47",
+    "temperature": 44.77,
+    "humidity": 52.82,
+    "pressure": 1045.65
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T00:34:41",
+    "temperature": 61.16,
+    "humidity": 58.35,
+    "pressure": 1040.13
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T01:54:11",
+    "temperature": 74.37,
+    "humidity": 64.21,
+    "pressure": 982.65
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T00:28:02",
+    "temperature": 27.45,
+    "humidity": 67.74,
+    "pressure": 1021.66
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-28T22:33:35",
+    "temperature": 56.6,
+    "humidity": 39.53,
+    "pressure": 1009.39
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T12:11:49",
+    "temperature": 86.73,
+    "humidity": 35.83,
+    "pressure": 952.22
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T22:51:54",
+    "temperature": 53.67,
+    "humidity": 42.97,
+    "pressure": 1000.88
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-04T14:50:16",
+    "temperature": 54.91,
+    "humidity": 70.7,
+    "pressure": 990.47
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T09:48:31",
+    "temperature": 91.17,
+    "humidity": 41.02,
+    "pressure": 1036.31
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T05:23:38",
+    "temperature": 23.52,
+    "humidity": 30.36,
+    "pressure": 972.36
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T05:04:12",
+    "temperature": 77.68,
+    "humidity": 81.65,
+    "pressure": 974.87
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T22:12:39",
+    "temperature": 87.41,
+    "humidity": 84.82,
+    "pressure": 1019.74
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T05:04:54",
+    "temperature": 55.47,
+    "humidity": 48.89,
+    "pressure": 989.99
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T15:00:14",
+    "temperature": 60.33,
+    "humidity": 40.94,
+    "pressure": 974.25
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T07:07:34",
+    "temperature": 64.84,
+    "humidity": 86.39,
+    "pressure": 1016.29
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T12:02:49",
+    "temperature": 77.0,
+    "humidity": 84.83,
+    "pressure": 955.69
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T07:40:01",
+    "temperature": 47.47,
+    "humidity": 50.25,
+    "pressure": 991.42
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T06:37:48",
+    "temperature": 93.27,
+    "humidity": 43.37,
+    "pressure": 987.04
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T17:51:55",
+    "temperature": 39.64,
+    "humidity": 54.06,
+    "pressure": 1049.78
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T17:55:48",
+    "temperature": 89.23,
+    "humidity": 47.74,
+    "pressure": 971.4
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T06:45:46",
+    "temperature": 49.41,
+    "humidity": 36.46,
+    "pressure": 974.32
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T13:07:03",
+    "temperature": 79.36,
+    "humidity": 43.53,
+    "pressure": 1009.8
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T22:30:31",
+    "temperature": 62.48,
+    "humidity": 79.72,
+    "pressure": 960.07
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-20T18:13:55",
+    "temperature": 21.58,
+    "humidity": 71.62,
+    "pressure": 965.0
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T21:45:55",
+    "temperature": 49.28,
+    "humidity": 82.76,
+    "pressure": 1043.44
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T10:53:14",
+    "temperature": 78.49,
+    "humidity": 68.82,
+    "pressure": 965.19
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T06:08:47",
+    "temperature": 19.11,
+    "humidity": 52.98,
+    "pressure": 953.27
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-02T15:42:19",
+    "temperature": 38.31,
+    "humidity": 79.05,
+    "pressure": 1017.87
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-26T04:22:00",
+    "temperature": 88.45,
+    "humidity": 69.0,
+    "pressure": 1016.61
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T09:47:46",
+    "temperature": 22.0,
+    "humidity": 31.57,
+    "pressure": 980.98
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T08:08:16",
+    "temperature": 23.0,
+    "humidity": 89.74,
+    "pressure": 958.23
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T00:43:06",
+    "temperature": 18.16,
+    "humidity": 20.01,
+    "pressure": 1042.26
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T03:02:31",
+    "temperature": 78.16,
+    "humidity": 82.79,
+    "pressure": 1032.42
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T16:01:13",
+    "temperature": 54.23,
+    "humidity": 38.71,
+    "pressure": 979.14
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T19:38:54",
+    "temperature": 81.95,
+    "humidity": 25.02,
+    "pressure": 1011.27
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-06T08:18:22",
+    "temperature": 26.09,
+    "humidity": 52.36,
+    "pressure": 1035.24
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T04:16:19",
+    "temperature": 27.59,
+    "humidity": 74.33,
+    "pressure": 1001.49
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-13T09:17:22",
+    "temperature": 54.71,
+    "humidity": 35.67,
+    "pressure": 978.37
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T20:52:03",
+    "temperature": 46.47,
+    "humidity": 43.71,
+    "pressure": 966.28
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T09:34:46",
+    "temperature": 52.81,
+    "humidity": 51.68,
+    "pressure": 1045.17
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T02:21:39",
+    "temperature": 39.51,
+    "humidity": 65.74,
+    "pressure": 1031.46
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-11T20:32:40",
+    "temperature": 48.44,
+    "humidity": 85.13,
+    "pressure": 1029.43
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T22:09:06",
+    "temperature": 82.77,
+    "humidity": 66.64,
+    "pressure": 971.05
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T02:55:06",
+    "temperature": 51.9,
+    "humidity": 69.23,
+    "pressure": 953.68
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T05:14:17",
+    "temperature": 19.7,
+    "humidity": 81.26,
+    "pressure": 964.77
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-04T08:00:23",
+    "temperature": 94.86,
+    "humidity": 28.83,
+    "pressure": 1022.28
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-01T06:06:52",
+    "temperature": 37.6,
+    "humidity": 43.29,
+    "pressure": 982.0
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-03T15:27:16",
+    "temperature": 34.14,
+    "humidity": 53.71,
+    "pressure": 990.99
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T01:27:21",
+    "temperature": 89.39,
+    "humidity": 66.78,
+    "pressure": 1017.16
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T09:04:58",
+    "temperature": 73.35,
+    "humidity": 41.18,
+    "pressure": 1020.91
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-18T03:09:02",
+    "temperature": 86.65,
+    "humidity": 65.93,
+    "pressure": 986.42
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-27T22:08:37",
+    "temperature": 46.26,
+    "humidity": 44.16,
+    "pressure": 954.89
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-07T12:13:02",
+    "temperature": 82.29,
+    "humidity": 76.25,
+    "pressure": 988.96
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-19T20:19:33",
+    "temperature": 80.0,
+    "humidity": 52.45,
+    "pressure": 1046.66
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T06:11:36",
+    "temperature": 77.7,
+    "humidity": 80.38,
+    "pressure": 994.96
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T15:12:50",
+    "temperature": 80.26,
+    "humidity": 72.17,
+    "pressure": 1020.74
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-04T04:33:12",
+    "temperature": 67.67,
+    "humidity": 87.06,
+    "pressure": 1025.15
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T04:21:48",
+    "temperature": 84.45,
+    "humidity": 32.88,
+    "pressure": 1036.92
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-18T22:39:44",
+    "temperature": 28.13,
+    "humidity": 37.54,
+    "pressure": 959.32
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T06:43:31",
+    "temperature": 85.04,
+    "humidity": 43.42,
+    "pressure": 954.2
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T04:59:10",
+    "temperature": 26.23,
+    "humidity": 55.89,
+    "pressure": 999.54
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T18:27:32",
+    "temperature": 37.23,
+    "humidity": 34.16,
+    "pressure": 968.05
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-22T12:51:12",
+    "temperature": 18.08,
+    "humidity": 20.65,
+    "pressure": 986.07
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T22:11:04",
+    "temperature": 42.44,
+    "humidity": 63.04,
+    "pressure": 983.72
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-24T22:39:09",
+    "temperature": 23.37,
+    "humidity": 74.01,
+    "pressure": 1046.93
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T01:57:05",
+    "temperature": 31.14,
+    "humidity": 30.35,
+    "pressure": 1018.04
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-08T17:41:52",
+    "temperature": 83.62,
+    "humidity": 72.08,
+    "pressure": 977.34
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T21:17:57",
+    "temperature": 46.26,
+    "humidity": 57.01,
+    "pressure": 1009.05
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-03T22:00:37",
+    "temperature": 89.13,
+    "humidity": 33.77,
+    "pressure": 1026.97
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-25T06:14:39",
+    "temperature": 73.5,
+    "humidity": 22.76,
+    "pressure": 1046.41
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T16:00:19",
+    "temperature": 62.28,
+    "humidity": 40.31,
+    "pressure": 1049.68
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T21:30:18",
+    "temperature": 51.51,
+    "humidity": 39.91,
+    "pressure": 951.79
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-14T21:22:44",
+    "temperature": 62.15,
+    "humidity": 87.56,
+    "pressure": 956.28
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T02:54:43",
+    "temperature": 81.36,
+    "humidity": 49.21,
+    "pressure": 996.35
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T19:52:53",
+    "temperature": 85.75,
+    "humidity": 60.03,
+    "pressure": 1042.31
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T00:28:50",
+    "temperature": 81.78,
+    "humidity": 35.6,
+    "pressure": 976.47
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T03:47:05",
+    "temperature": 86.32,
+    "humidity": 79.65,
+    "pressure": 1031.67
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T01:47:54",
+    "temperature": 68.47,
+    "humidity": 60.57,
+    "pressure": 989.48
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-21T22:33:33",
+    "temperature": 15.34,
+    "humidity": 36.05,
+    "pressure": 972.18
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-09T04:59:49",
+    "temperature": 80.72,
+    "humidity": 36.73,
+    "pressure": 950.23
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-17T03:20:35",
+    "temperature": 18.82,
+    "humidity": 25.33,
+    "pressure": 1030.33
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-05T19:33:24",
+    "temperature": 57.82,
+    "humidity": 82.96,
+    "pressure": 1043.99
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-16T02:42:33",
+    "temperature": 16.31,
+    "humidity": 80.8,
+    "pressure": 1023.28
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-01T16:34:18",
+    "temperature": 76.34,
+    "humidity": 75.16,
+    "pressure": 1026.89
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-03-03T14:04:45",
+    "temperature": 68.07,
+    "humidity": 54.76,
+    "pressure": 1008.02
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-12T17:54:02",
+    "temperature": 57.73,
+    "humidity": 58.67,
+    "pressure": 1027.97
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-15T06:57:00",
+    "temperature": 83.42,
+    "humidity": 84.79,
+    "pressure": 988.9
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-10T21:37:38",
+    "temperature": 73.06,
+    "humidity": 32.41,
+    "pressure": 1015.61
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-23T10:16:09",
+    "temperature": 16.14,
+    "humidity": 50.07,
+    "pressure": 982.88
+  },
+  {
+    "sensor_id": "S003",
+    "timestamp": "2026-02-08T21:46:41",
+    "temperature": 34.65,
+    "humidity": 53.59,
+    "pressure": 959.95
+  }
+]

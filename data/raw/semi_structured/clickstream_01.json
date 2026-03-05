@@ -1,0 +1,1514 @@
+[
+  {
+    "session_id": "55a8e46d-1794-4bed-863e-e24dd5b8056b",
+    "user_id": 418,
+    "start": "2026-03-05T06:13:32",
+    "end": "2026-03-05T06:09:10",
+    "pages_visited": [
+      {
+        "url": "/explore/category",
+        "dwell_ms": 10821
+      },
+      {
+        "url": "/categories/app",
+        "dwell_ms": 6592
+      },
+      {
+        "url": "/posts/category",
+        "dwell_ms": 14505
+      }
+    ]
+  },
+  {
+    "session_id": "3f0cbf7d-c99b-4782-9ea6-c0a0285f6c82",
+    "user_id": 42,
+    "start": "2026-03-05T06:13:07",
+    "end": "2026-03-05T06:12:01",
+    "pages_visited": [
+      {
+        "url": "/posts",
+        "dwell_ms": 24875
+      },
+      {
+        "url": "/category/main",
+        "dwell_ms": 12385
+      }
+    ]
+  },
+  {
+    "session_id": "5e95d7b6-fe1c-4a28-8862-b70c7904ffb1",
+    "user_id": 117,
+    "start": "2026-03-05T06:09:32",
+    "end": "2026-03-05T06:09:47",
+    "pages_visited": [
+      {
+        "url": "/list/blog",
+        "dwell_ms": 2244
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 27396
+      },
+      {
+        "url": "/posts/explore",
+        "dwell_ms": 19161
+      },
+      {
+        "url": "/tag/search",
+        "dwell_ms": 4961
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 7040
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 1936
+      },
+      {
+        "url": "/blog/blog/category",
+        "dwell_ms": 1575
+      },
+      {
+        "url": "/list/categories/list",
+        "dwell_ms": 15651
+      },
+      {
+        "url": "/wp-content/search/list",
+        "dwell_ms": 2822
+      }
+    ]
+  },
+  {
+    "session_id": "6364d40f-fd69-4ef1-8146-4090b502ceb4",
+    "user_id": 415,
+    "start": "2026-03-05T06:11:52",
+    "end": "2026-03-05T06:12:43",
+    "pages_visited": [
+      {
+        "url": "/category",
+        "dwell_ms": 19952
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 10786
+      },
+      {
+        "url": "/app/tags",
+        "dwell_ms": 22798
+      },
+      {
+        "url": "/blog/tag/wp-content",
+        "dwell_ms": 981
+      },
+      {
+        "url": "/categories/wp-content/search",
+        "dwell_ms": 650
+      },
+      {
+        "url": "/search/categories/categories",
+        "dwell_ms": 16355
+      },
+      {
+        "url": "/wp-content/categories",
+        "dwell_ms": 8902
+      },
+      {
+        "url": "/posts/category",
+        "dwell_ms": 23459
+      }
+    ]
+  },
+  {
+    "session_id": "90c50d15-4bc8-44c9-a5a9-53e189d49382",
+    "user_id": 425,
+    "start": "2026-03-05T06:11:40",
+    "end": "2026-03-05T06:12:42",
+    "pages_visited": [
+      {
+        "url": "/wp-content/tags/list",
+        "dwell_ms": 29245
+      },
+      {
+        "url": "/posts/app/main",
+        "dwell_ms": 17020
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 19308
+      }
+    ]
+  },
+  {
+    "session_id": "19fc4dff-1553-4ea0-8006-1969f2435fb4",
+    "user_id": 403,
+    "start": "2026-03-05T06:11:01",
+    "end": "2026-03-05T06:12:03",
+    "pages_visited": [
+      {
+        "url": "/wp-content/tag/app",
+        "dwell_ms": 18908
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 23810
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 11222
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 23408
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 10102
+      },
+      {
+        "url": "/main/posts/app",
+        "dwell_ms": 7938
+      }
+    ]
+  },
+  {
+    "session_id": "9d11421a-894b-40af-861c-52c2186d5e1c",
+    "user_id": 416,
+    "start": "2026-03-05T06:11:16",
+    "end": "2026-03-05T06:11:46",
+    "pages_visited": [
+      {
+        "url": "/list/app/list",
+        "dwell_ms": 26630
+      },
+      {
+        "url": "/blog/categories",
+        "dwell_ms": 19095
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 17601
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 15846
+      }
+    ]
+  },
+  {
+    "session_id": "97975b0b-324b-4851-88a4-1ff065f28679",
+    "user_id": 212,
+    "start": "2026-03-05T06:10:12",
+    "end": "2026-03-05T06:11:26",
+    "pages_visited": [
+      {
+        "url": "/wp-content/tags",
+        "dwell_ms": 19278
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 7490
+      },
+      {
+        "url": "/explore/tags/category",
+        "dwell_ms": 28851
+      },
+      {
+        "url": "/search/posts/wp-content",
+        "dwell_ms": 28597
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 14004
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 11792
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 4809
+      },
+      {
+        "url": "/list/tags/list",
+        "dwell_ms": 20002
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 8924
+      },
+      {
+        "url": "/posts/search",
+        "dwell_ms": 9643
+      }
+    ]
+  },
+  {
+    "session_id": "fe546eed-1475-43a1-aa39-c161d8b2f336",
+    "user_id": 490,
+    "start": "2026-03-05T06:13:21",
+    "end": "2026-03-05T06:08:36",
+    "pages_visited": [
+      {
+        "url": "/list",
+        "dwell_ms": 25599
+      },
+      {
+        "url": "/blog/category",
+        "dwell_ms": 4286
+      },
+      {
+        "url": "/categories/main",
+        "dwell_ms": 14046
+      },
+      {
+        "url": "/tag/blog",
+        "dwell_ms": 27904
+      },
+      {
+        "url": "/blog/categories",
+        "dwell_ms": 24509
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 3386
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 20960
+      },
+      {
+        "url": "/app",
+        "dwell_ms": 26486
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 24124
+      }
+    ]
+  },
+  {
+    "session_id": "c907460e-5993-44c6-ab78-8de21b80effc",
+    "user_id": 264,
+    "start": "2026-03-05T06:12:32",
+    "end": "2026-03-05T06:07:54",
+    "pages_visited": [
+      {
+        "url": "/categories",
+        "dwell_ms": 16036
+      },
+      {
+        "url": "/wp-content/tags/blog",
+        "dwell_ms": 7125
+      },
+      {
+        "url": "/main",
+        "dwell_ms": 26870
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 10686
+      }
+    ]
+  },
+  {
+    "session_id": "459b082c-f8d9-4bd6-85ad-48ed3b4bb2ab",
+    "user_id": 416,
+    "start": "2026-03-05T06:09:30",
+    "end": "2026-03-05T06:11:43",
+    "pages_visited": [
+      {
+        "url": "/tag/tag/posts",
+        "dwell_ms": 3208
+      },
+      {
+        "url": "/search/posts/search",
+        "dwell_ms": 7486
+      },
+      {
+        "url": "/categories/blog/main",
+        "dwell_ms": 25748
+      },
+      {
+        "url": "/main",
+        "dwell_ms": 24268
+      },
+      {
+        "url": "/tag/wp-content",
+        "dwell_ms": 25844
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 2817
+      },
+      {
+        "url": "/main/category/explore",
+        "dwell_ms": 1663
+      },
+      {
+        "url": "/tags/tags/tags",
+        "dwell_ms": 8948
+      },
+      {
+        "url": "/app",
+        "dwell_ms": 11388
+      },
+      {
+        "url": "/tags/explore",
+        "dwell_ms": 1987
+      }
+    ]
+  },
+  {
+    "session_id": "26889e4a-09e5-4183-a96f-196de4c511d5",
+    "user_id": 79,
+    "start": "2026-03-05T06:12:11",
+    "end": "2026-03-05T06:12:27",
+    "pages_visited": [
+      {
+        "url": "/list/explore",
+        "dwell_ms": 25884
+      },
+      {
+        "url": "/list/explore",
+        "dwell_ms": 18898
+      },
+      {
+        "url": "/explore/list/tags",
+        "dwell_ms": 22257
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 20513
+      },
+      {
+        "url": "/main",
+        "dwell_ms": 13714
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 7767
+      },
+      {
+        "url": "/list/explore/search",
+        "dwell_ms": 22933
+      }
+    ]
+  },
+  {
+    "session_id": "ff14eeba-27eb-4195-a35e-232c42d99eff",
+    "user_id": 94,
+    "start": "2026-03-05T06:08:10",
+    "end": "2026-03-05T06:09:27",
+    "pages_visited": [
+      {
+        "url": "/wp-content/tag",
+        "dwell_ms": 15844
+      },
+      {
+        "url": "/tag/explore/main",
+        "dwell_ms": 29742
+      },
+      {
+        "url": "/main/explore/category",
+        "dwell_ms": 10224
+      }
+    ]
+  },
+  {
+    "session_id": "7b057bd0-c986-4afd-92ec-c7ed14703aa5",
+    "user_id": 110,
+    "start": "2026-03-05T06:08:30",
+    "end": "2026-03-05T06:13:39",
+    "pages_visited": [
+      {
+        "url": "/tags",
+        "dwell_ms": 14847
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 8889
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 17671
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 25532
+      },
+      {
+        "url": "/search/list/app",
+        "dwell_ms": 29378
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 27496
+      },
+      {
+        "url": "/blog/app",
+        "dwell_ms": 8428
+      }
+    ]
+  },
+  {
+    "session_id": "8e3ec6ee-8550-4b27-aecf-6a72f87c7b50",
+    "user_id": 173,
+    "start": "2026-03-05T06:13:15",
+    "end": "2026-03-05T06:08:25",
+    "pages_visited": [
+      {
+        "url": "/main/main",
+        "dwell_ms": 14284
+      },
+      {
+        "url": "/tag/tags/search",
+        "dwell_ms": 17865
+      },
+      {
+        "url": "/explore/app",
+        "dwell_ms": 2481
+      },
+      {
+        "url": "/wp-content/tag/list",
+        "dwell_ms": 13791
+      }
+    ]
+  },
+  {
+    "session_id": "4b688c40-616c-4b19-bda8-f7d75e562c48",
+    "user_id": 442,
+    "start": "2026-03-05T06:11:19",
+    "end": "2026-03-05T06:09:16",
+    "pages_visited": [
+      {
+        "url": "/app/categories/explore",
+        "dwell_ms": 18380
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 14767
+      },
+      {
+        "url": "/search/explore",
+        "dwell_ms": 1775
+      },
+      {
+        "url": "/explore/main/categories",
+        "dwell_ms": 24923
+      },
+      {
+        "url": "/wp-content/tags",
+        "dwell_ms": 14566
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 15173
+      }
+    ]
+  },
+  {
+    "session_id": "137d97fc-0c42-433b-a081-aabd48b18785",
+    "user_id": 100,
+    "start": "2026-03-05T06:09:41",
+    "end": "2026-03-05T06:08:22",
+    "pages_visited": [
+      {
+        "url": "/wp-content/app",
+        "dwell_ms": 7677
+      },
+      {
+        "url": "/tags/explore/wp-content",
+        "dwell_ms": 24019
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 8736
+      },
+      {
+        "url": "/search/category/wp-content",
+        "dwell_ms": 29696
+      },
+      {
+        "url": "/wp-content/tags",
+        "dwell_ms": 10316
+      },
+      {
+        "url": "/search/app/main",
+        "dwell_ms": 18258
+      },
+      {
+        "url": "/search/blog",
+        "dwell_ms": 16994
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 6897
+      },
+      {
+        "url": "/tags/tags",
+        "dwell_ms": 18429
+      },
+      {
+        "url": "/search/categories/list",
+        "dwell_ms": 10449
+      }
+    ]
+  },
+  {
+    "session_id": "48468d49-9ac1-4a87-a3f3-01a96d090422",
+    "user_id": 496,
+    "start": "2026-03-05T06:11:59",
+    "end": "2026-03-05T06:12:31",
+    "pages_visited": [
+      {
+        "url": "/wp-content/app/category",
+        "dwell_ms": 10917
+      },
+      {
+        "url": "/explore/blog/category",
+        "dwell_ms": 26721
+      },
+      {
+        "url": "/category/tags",
+        "dwell_ms": 7966
+      },
+      {
+        "url": "/wp-content/category",
+        "dwell_ms": 13037
+      }
+    ]
+  },
+  {
+    "session_id": "2548f600-e2f2-4f04-8bd6-a07d813ee22d",
+    "user_id": 472,
+    "start": "2026-03-05T06:09:14",
+    "end": "2026-03-05T06:11:29",
+    "pages_visited": [
+      {
+        "url": "/blog/tag/category",
+        "dwell_ms": 13800
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 5018
+      },
+      {
+        "url": "/category/app",
+        "dwell_ms": 18201
+      },
+      {
+        "url": "/list/tag",
+        "dwell_ms": 2054
+      },
+      {
+        "url": "/app/search/explore",
+        "dwell_ms": 11341
+      },
+      {
+        "url": "/main/wp-content",
+        "dwell_ms": 11444
+      }
+    ]
+  },
+  {
+    "session_id": "825dd0ea-60c9-4560-9183-6f31fca0cd72",
+    "user_id": 28,
+    "start": "2026-03-05T06:13:11",
+    "end": "2026-03-05T06:11:15",
+    "pages_visited": [
+      {
+        "url": "/category",
+        "dwell_ms": 27248
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 15059
+      },
+      {
+        "url": "/tag/posts/list",
+        "dwell_ms": 9566
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 23591
+      },
+      {
+        "url": "/category/tags",
+        "dwell_ms": 2142
+      },
+      {
+        "url": "/search/explore/posts",
+        "dwell_ms": 13393
+      },
+      {
+        "url": "/main/main",
+        "dwell_ms": 12299
+      },
+      {
+        "url": "/category/wp-content",
+        "dwell_ms": 15212
+      },
+      {
+        "url": "/main/category/posts",
+        "dwell_ms": 20812
+      }
+    ]
+  },
+  {
+    "session_id": "249031eb-3ab7-4477-a3d7-7f97294d6e96",
+    "user_id": 172,
+    "start": "2026-03-05T06:12:22",
+    "end": "2026-03-05T06:08:55",
+    "pages_visited": [
+      {
+        "url": "/wp-content",
+        "dwell_ms": 3123
+      },
+      {
+        "url": "/main/app/search",
+        "dwell_ms": 12434
+      },
+      {
+        "url": "/list/categories",
+        "dwell_ms": 13511
+      },
+      {
+        "url": "/explore/tags",
+        "dwell_ms": 5725
+      },
+      {
+        "url": "/app/search",
+        "dwell_ms": 7249
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 18999
+      },
+      {
+        "url": "/search/tags/main",
+        "dwell_ms": 6489
+      }
+    ]
+  },
+  {
+    "session_id": "1a0e3e79-c821-4db0-a3d0-ef715f7e9ce0",
+    "user_id": 374,
+    "start": "2026-03-05T06:13:40",
+    "end": "2026-03-05T06:08:39",
+    "pages_visited": [
+      {
+        "url": "/tag",
+        "dwell_ms": 19966
+      },
+      {
+        "url": "/app/list/posts",
+        "dwell_ms": 1614
+      }
+    ]
+  },
+  {
+    "session_id": "c79eeb8e-f799-4edc-9195-4d5631b9b512",
+    "user_id": 277,
+    "start": "2026-03-05T06:11:26",
+    "end": "2026-03-05T06:08:54",
+    "pages_visited": [
+      {
+        "url": "/list",
+        "dwell_ms": 25589
+      },
+      {
+        "url": "/tags/explore/app",
+        "dwell_ms": 11134
+      },
+      {
+        "url": "/search/tags",
+        "dwell_ms": 4010
+      },
+      {
+        "url": "/category/tag/explore",
+        "dwell_ms": 1892
+      },
+      {
+        "url": "/posts/categories/app",
+        "dwell_ms": 16667
+      },
+      {
+        "url": "/app/app/list",
+        "dwell_ms": 21109
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 23432
+      }
+    ]
+  },
+  {
+    "session_id": "b658f7a0-dde1-4cd3-a8f7-f4ca49a69acc",
+    "user_id": 159,
+    "start": "2026-03-05T06:10:28",
+    "end": "2026-03-05T06:09:44",
+    "pages_visited": [
+      {
+        "url": "/app/search",
+        "dwell_ms": 22326
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 20163
+      }
+    ]
+  },
+  {
+    "session_id": "ee09a932-1879-4203-a809-2f1ac2cda60a",
+    "user_id": 53,
+    "start": "2026-03-05T06:13:15",
+    "end": "2026-03-05T06:09:54",
+    "pages_visited": [
+      {
+        "url": "/tag/category",
+        "dwell_ms": 3767
+      },
+      {
+        "url": "/search/list",
+        "dwell_ms": 3230
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 3780
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 15661
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 26023
+      }
+    ]
+  },
+  {
+    "session_id": "ed248309-8e32-4d20-ac94-1700828b6347",
+    "user_id": 260,
+    "start": "2026-03-05T06:12:52",
+    "end": "2026-03-05T06:09:34",
+    "pages_visited": [
+      {
+        "url": "/categories",
+        "dwell_ms": 3604
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 20194
+      },
+      {
+        "url": "/explore/categories",
+        "dwell_ms": 23001
+      },
+      {
+        "url": "/explore/blog/wp-content",
+        "dwell_ms": 1125
+      },
+      {
+        "url": "/tags/main/main",
+        "dwell_ms": 5163
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 11265
+      },
+      {
+        "url": "/blog/blog/search",
+        "dwell_ms": 26892
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 10164
+      }
+    ]
+  },
+  {
+    "session_id": "03848427-9361-4973-98a4-94d1670a12c8",
+    "user_id": 361,
+    "start": "2026-03-05T06:10:23",
+    "end": "2026-03-05T06:10:29",
+    "pages_visited": [
+      {
+        "url": "/search/category/tag",
+        "dwell_ms": 22847
+      },
+      {
+        "url": "/tags/search",
+        "dwell_ms": 13248
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 2268
+      },
+      {
+        "url": "/wp-content/list",
+        "dwell_ms": 23003
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 23525
+      },
+      {
+        "url": "/explore/categories/app",
+        "dwell_ms": 6304
+      },
+      {
+        "url": "/category/main",
+        "dwell_ms": 6011
+      },
+      {
+        "url": "/posts/tag/category",
+        "dwell_ms": 21269
+      },
+      {
+        "url": "/app/search/tag",
+        "dwell_ms": 1279
+      }
+    ]
+  },
+  {
+    "session_id": "45fb791c-c192-4933-b3cd-050a3bc88160",
+    "user_id": 208,
+    "start": "2026-03-05T06:10:50",
+    "end": "2026-03-05T06:11:27",
+    "pages_visited": [
+      {
+        "url": "/main",
+        "dwell_ms": 8161
+      },
+      {
+        "url": "/search/tag",
+        "dwell_ms": 10826
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 27290
+      },
+      {
+        "url": "/tags/app",
+        "dwell_ms": 9283
+      },
+      {
+        "url": "/list/app/category",
+        "dwell_ms": 23392
+      },
+      {
+        "url": "/app/search/tag",
+        "dwell_ms": 3224
+      },
+      {
+        "url": "/tags/main",
+        "dwell_ms": 22867
+      }
+    ]
+  },
+  {
+    "session_id": "4bb6fdab-65d4-4bba-9950-2b0d9ce505e9",
+    "user_id": 91,
+    "start": "2026-03-05T06:09:57",
+    "end": "2026-03-05T06:10:14",
+    "pages_visited": [
+      {
+        "url": "/posts/tag",
+        "dwell_ms": 29760
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 3209
+      }
+    ]
+  },
+  {
+    "session_id": "0257ac68-cfc4-4f87-a05e-5522cd7e3ac6",
+    "user_id": 342,
+    "start": "2026-03-05T06:12:12",
+    "end": "2026-03-05T06:10:04",
+    "pages_visited": [
+      {
+        "url": "/wp-content/blog/list",
+        "dwell_ms": 6471
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 14843
+      },
+      {
+        "url": "/categories/posts",
+        "dwell_ms": 10780
+      },
+      {
+        "url": "/app/blog",
+        "dwell_ms": 26220
+      }
+    ]
+  },
+  {
+    "session_id": "54bc0607-b85b-41c2-9c50-ff9e4ecce990",
+    "user_id": 407,
+    "start": "2026-03-05T06:10:35",
+    "end": "2026-03-05T06:09:46",
+    "pages_visited": [
+      {
+        "url": "/tags/search",
+        "dwell_ms": 29071
+      },
+      {
+        "url": "/search/search",
+        "dwell_ms": 2450
+      },
+      {
+        "url": "/explore/category/list",
+        "dwell_ms": 846
+      },
+      {
+        "url": "/posts/app/search",
+        "dwell_ms": 5674
+      },
+      {
+        "url": "/tag/wp-content",
+        "dwell_ms": 28678
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 14186
+      },
+      {
+        "url": "/main/posts/blog",
+        "dwell_ms": 25388
+      }
+    ]
+  },
+  {
+    "session_id": "ee509b8d-2e68-4243-9bdc-b2a94a869f03",
+    "user_id": 416,
+    "start": "2026-03-05T06:09:33",
+    "end": "2026-03-05T06:08:22",
+    "pages_visited": [
+      {
+        "url": "/tags/explore",
+        "dwell_ms": 3086
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 10969
+      }
+    ]
+  },
+  {
+    "session_id": "478f8cad-0bcc-4032-b9f2-b7a3630a3b56",
+    "user_id": 57,
+    "start": "2026-03-05T06:07:50",
+    "end": "2026-03-05T06:08:51",
+    "pages_visited": [
+      {
+        "url": "/tag/wp-content/list",
+        "dwell_ms": 7531
+      },
+      {
+        "url": "/tags/tag/main",
+        "dwell_ms": 28773
+      },
+      {
+        "url": "/explore/tags",
+        "dwell_ms": 24075
+      },
+      {
+        "url": "/app",
+        "dwell_ms": 6499
+      },
+      {
+        "url": "/main/tag",
+        "dwell_ms": 29286
+      },
+      {
+        "url": "/main",
+        "dwell_ms": 11871
+      },
+      {
+        "url": "/blog/tags",
+        "dwell_ms": 26647
+      }
+    ]
+  },
+  {
+    "session_id": "9aa7d84c-61e8-49c5-a7f7-7e75e65c6189",
+    "user_id": 336,
+    "start": "2026-03-05T06:09:27",
+    "end": "2026-03-05T06:11:43",
+    "pages_visited": [
+      {
+        "url": "/categories",
+        "dwell_ms": 14922
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 21265
+      },
+      {
+        "url": "/posts/explore",
+        "dwell_ms": 29683
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 20738
+      },
+      {
+        "url": "/main/app/categories",
+        "dwell_ms": 11634
+      },
+      {
+        "url": "/app/main",
+        "dwell_ms": 1548
+      }
+    ]
+  },
+  {
+    "session_id": "95c5181b-abe2-48a8-9860-50e96b012fae",
+    "user_id": 225,
+    "start": "2026-03-05T06:08:04",
+    "end": "2026-03-05T06:08:34",
+    "pages_visited": [
+      {
+        "url": "/wp-content/wp-content/category",
+        "dwell_ms": 1936
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 27853
+      },
+      {
+        "url": "/tag/tags/app",
+        "dwell_ms": 16632
+      },
+      {
+        "url": "/app/blog/tags",
+        "dwell_ms": 3773
+      },
+      {
+        "url": "/main/main",
+        "dwell_ms": 25567
+      },
+      {
+        "url": "/category/blog",
+        "dwell_ms": 15014
+      }
+    ]
+  },
+  {
+    "session_id": "1061abba-7e02-4f27-b334-1bf847e0bcac",
+    "user_id": 361,
+    "start": "2026-03-05T06:12:03",
+    "end": "2026-03-05T06:10:48",
+    "pages_visited": [
+      {
+        "url": "/explore/search",
+        "dwell_ms": 28173
+      },
+      {
+        "url": "/tag/explore/posts",
+        "dwell_ms": 4731
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 15694
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 19995
+      },
+      {
+        "url": "/blog/explore",
+        "dwell_ms": 18546
+      }
+    ]
+  },
+  {
+    "session_id": "15354005-3bfd-4c43-be2e-af0a22ffd90b",
+    "user_id": 26,
+    "start": "2026-03-05T06:10:57",
+    "end": "2026-03-05T06:13:13",
+    "pages_visited": [
+      {
+        "url": "/tag/list/categories",
+        "dwell_ms": 23709
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 24851
+      },
+      {
+        "url": "/category/tag",
+        "dwell_ms": 19829
+      },
+      {
+        "url": "/list/tag",
+        "dwell_ms": 22587
+      },
+      {
+        "url": "/main/search/posts",
+        "dwell_ms": 12498
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 21599
+      },
+      {
+        "url": "/blog/main/app",
+        "dwell_ms": 1419
+      }
+    ]
+  },
+  {
+    "session_id": "6d8b643e-7fbb-467d-b95a-5a97738c5016",
+    "user_id": 468,
+    "start": "2026-03-05T06:11:15",
+    "end": "2026-03-05T06:11:19",
+    "pages_visited": [
+      {
+        "url": "/app/wp-content",
+        "dwell_ms": 22337
+      },
+      {
+        "url": "/tags/posts",
+        "dwell_ms": 25108
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 27672
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 2654
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 2077
+      }
+    ]
+  },
+  {
+    "session_id": "a5e3862e-b346-4a56-9245-19b316278558",
+    "user_id": 5,
+    "start": "2026-03-05T06:10:24",
+    "end": "2026-03-05T06:11:44",
+    "pages_visited": [
+      {
+        "url": "/app/tags/posts",
+        "dwell_ms": 9932
+      },
+      {
+        "url": "/app/main/app",
+        "dwell_ms": 22701
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 20883
+      },
+      {
+        "url": "/tags/blog",
+        "dwell_ms": 7585
+      },
+      {
+        "url": "/app/tags",
+        "dwell_ms": 10463
+      },
+      {
+        "url": "/tags/wp-content",
+        "dwell_ms": 25825
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 24137
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 899
+      }
+    ]
+  },
+  {
+    "session_id": "8a05ce06-1f83-418b-bc7d-ca05af17b2a6",
+    "user_id": 105,
+    "start": "2026-03-05T06:10:42",
+    "end": "2026-03-05T06:12:39",
+    "pages_visited": [
+      {
+        "url": "/main",
+        "dwell_ms": 598
+      },
+      {
+        "url": "/categories",
+        "dwell_ms": 9590
+      },
+      {
+        "url": "/categories/search/categories",
+        "dwell_ms": 11910
+      }
+    ]
+  },
+  {
+    "session_id": "7f7ba12a-e95f-4710-b87d-d8266a017abc",
+    "user_id": 65,
+    "start": "2026-03-05T06:08:22",
+    "end": "2026-03-05T06:08:22",
+    "pages_visited": [
+      {
+        "url": "/list/tags",
+        "dwell_ms": 29279
+      },
+      {
+        "url": "/app",
+        "dwell_ms": 7529
+      }
+    ]
+  },
+  {
+    "session_id": "bf17d94f-f05f-49e7-8767-2b820a4037eb",
+    "user_id": 220,
+    "start": "2026-03-05T06:09:45",
+    "end": "2026-03-05T06:11:32",
+    "pages_visited": [
+      {
+        "url": "/posts/wp-content",
+        "dwell_ms": 17096
+      },
+      {
+        "url": "/categories/blog/list",
+        "dwell_ms": 20540
+      }
+    ]
+  },
+  {
+    "session_id": "3509b022-12b9-4e57-b281-b0d1b3fa5d5f",
+    "user_id": 358,
+    "start": "2026-03-05T06:08:53",
+    "end": "2026-03-05T06:09:52",
+    "pages_visited": [
+      {
+        "url": "/category/tags",
+        "dwell_ms": 2610
+      },
+      {
+        "url": "/list/category/wp-content",
+        "dwell_ms": 2859
+      },
+      {
+        "url": "/posts/categories",
+        "dwell_ms": 18285
+      },
+      {
+        "url": "/main/tags",
+        "dwell_ms": 10326
+      },
+      {
+        "url": "/list",
+        "dwell_ms": 21040
+      },
+      {
+        "url": "/category/categories",
+        "dwell_ms": 20600
+      }
+    ]
+  },
+  {
+    "session_id": "e540967a-5740-43b0-bc45-400ae1e3f5cf",
+    "user_id": 466,
+    "start": "2026-03-05T06:09:27",
+    "end": "2026-03-05T06:12:08",
+    "pages_visited": [
+      {
+        "url": "/app",
+        "dwell_ms": 7754
+      },
+      {
+        "url": "/main",
+        "dwell_ms": 21928
+      },
+      {
+        "url": "/blog/app",
+        "dwell_ms": 11536
+      }
+    ]
+  },
+  {
+    "session_id": "29e61c7b-5a64-45e8-8dc7-b3a063492ba3",
+    "user_id": 451,
+    "start": "2026-03-05T06:13:38",
+    "end": "2026-03-05T06:11:19",
+    "pages_visited": [
+      {
+        "url": "/search/tag",
+        "dwell_ms": 18373
+      },
+      {
+        "url": "/tag",
+        "dwell_ms": 12269
+      },
+      {
+        "url": "/wp-content",
+        "dwell_ms": 11841
+      },
+      {
+        "url": "/wp-content/search",
+        "dwell_ms": 25402
+      }
+    ]
+  },
+  {
+    "session_id": "f6551ac6-3879-4941-986d-da5df16cd8d0",
+    "user_id": 385,
+    "start": "2026-03-05T06:09:47",
+    "end": "2026-03-05T06:11:50",
+    "pages_visited": [
+      {
+        "url": "/blog/search",
+        "dwell_ms": 12748
+      },
+      {
+        "url": "/tags/explore",
+        "dwell_ms": 22979
+      },
+      {
+        "url": "/categories/categories",
+        "dwell_ms": 19082
+      },
+      {
+        "url": "/tag/main/posts",
+        "dwell_ms": 11656
+      },
+      {
+        "url": "/search/category/main",
+        "dwell_ms": 5300
+      }
+    ]
+  },
+  {
+    "session_id": "2359da56-a01f-4549-a823-c8694e8c378e",
+    "user_id": 24,
+    "start": "2026-03-05T06:10:21",
+    "end": "2026-03-05T06:07:42",
+    "pages_visited": [
+      {
+        "url": "/categories/explore",
+        "dwell_ms": 13211
+      },
+      {
+        "url": "/search/categories",
+        "dwell_ms": 2815
+      },
+      {
+        "url": "/list/main",
+        "dwell_ms": 1589
+      },
+      {
+        "url": "/app/tag/main",
+        "dwell_ms": 2443
+      },
+      {
+        "url": "/list/blog",
+        "dwell_ms": 13854
+      },
+      {
+        "url": "/posts",
+        "dwell_ms": 16454
+      },
+      {
+        "url": "/explore",
+        "dwell_ms": 19157
+      }
+    ]
+  },
+  {
+    "session_id": "9d27d39d-0593-4210-b3c0-52a851cfc712",
+    "user_id": 482,
+    "start": "2026-03-05T06:11:25",
+    "end": "2026-03-05T06:12:39",
+    "pages_visited": [
+      {
+        "url": "/category",
+        "dwell_ms": 21606
+      },
+      {
+        "url": "/list/list/app",
+        "dwell_ms": 1129
+      }
+    ]
+  },
+  {
+    "session_id": "6fe4e214-4d18-4030-9c39-26679355ce00",
+    "user_id": 204,
+    "start": "2026-03-05T06:13:16",
+    "end": "2026-03-05T06:10:50",
+    "pages_visited": [
+      {
+        "url": "/wp-content",
+        "dwell_ms": 27508
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 18440
+      },
+      {
+        "url": "/list/tag",
+        "dwell_ms": 2426
+      },
+      {
+        "url": "/explore/blog/blog",
+        "dwell_ms": 2914
+      },
+      {
+        "url": "/category",
+        "dwell_ms": 18415
+      },
+      {
+        "url": "/explore/blog",
+        "dwell_ms": 13176
+      },
+      {
+        "url": "/list/main",
+        "dwell_ms": 23998
+      },
+      {
+        "url": "/blog",
+        "dwell_ms": 14892
+      }
+    ]
+  },
+  {
+    "session_id": "0d4be935-a7ca-4deb-b2b7-a1884a9313ba",
+    "user_id": 245,
+    "start": "2026-03-05T06:11:34",
+    "end": "2026-03-05T06:07:52",
+    "pages_visited": [
+      {
+        "url": "/search",
+        "dwell_ms": 1944
+      },
+      {
+        "url": "/tags/main/search",
+        "dwell_ms": 26003
+      },
+      {
+        "url": "/blog/explore/explore",
+        "dwell_ms": 23288
+      },
+      {
+        "url": "/search",
+        "dwell_ms": 29841
+      },
+      {
+        "url": "/tags",
+        "dwell_ms": 8417
+      },
+      {
+        "url": "/blog/main/app",
+        "dwell_ms": 16195
+      }
+    ]
+  }
+]

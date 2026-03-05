@@ -36,4 +36,32 @@ Route::prefix('analytics')->group(function () {
     Route::get('/data-mart/sales', [AnalyticsController::class, 'salesMart'])
         ->name('analytics.data-mart.sales');
 
+    // UDW Research results (reads Python-generated CSV/JSON files)
+    Route::get('/udw-research', function () {
+        $base = base_path('results');
+
+        $readCsv = function ($file) use ($base) {
+            $path = $base . DIRECTORY_SEPARATOR . $file;
+            if (!file_exists($path))
+                return [];
+            $rows = array_map('str_getcsv', file($path));
+            $header = array_shift($rows);
+            return array_map(fn($r) => array_combine($header, array_pad($r, count($header), null)), $rows);
+        };
+
+        $readJson = function ($file) use ($base) {
+            $path = $base . DIRECTORY_SEPARATOR . $file;
+            return file_exists($path) ? json_decode(file_get_contents($path), true) : [];
+        };
+
+        return response()->json([
+            'benchmark' => $readCsv('benchmark_results.csv'),
+            'scalability' => $readCsv('scalability_results.csv'),
+            'dq' => $readCsv('data_quality_results.csv'),
+            'etl' => $readCsv('etl_results.csv'),
+            'anomaly' => $readJson('anomaly_metrics.json'),
+            'prediction' => $readJson('prediction_metrics.json'),
+        ]);
+    })->name('analytics.udw-research');
+
 });

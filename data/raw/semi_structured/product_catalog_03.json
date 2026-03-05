@@ -1,0 +1,258 @@
+{
+  "catalog_id": "beadd82a-9290-4966-8059-5cd26a008647",
+  "region": "Falkland Islands (Malvinas)",
+  "currency": "GBP",
+  "last_updated": "2026-03-05T06:13:40.957910",
+  "items": [
+    {
+      "sku": "SKUTXRSPL",
+      "price": 2807.39,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUVXISJN",
+      "price": 4727.51,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUVBDLPT",
+      "price": 3047.97,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUVHOQXL",
+      "price": 414.34,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUYTNXGI",
+      "price": 498.91,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUUFMWNK",
+      "price": 2619.23,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUEFANIL",
+      "price": 2684.2,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUPPZVCY",
+      "price": 1686.11,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUXAURWV",
+      "price": 2866.43,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUVLPJDW",
+      "price": 4623.44,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUFUCVIN",
+      "price": 3755.54,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUYAVIDK",
+      "price": 3731.91,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUDGPAYN",
+      "price": 4264.89,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUHQIDSB",
+      "price": 300.06,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUVUWSBI",
+      "price": 4397.2,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUFLKXYU",
+      "price": 2656.99,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUJKXCRN",
+      "price": 2999.92,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUFGQSQO",
+      "price": 4877.26,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUCQHRCI",
+      "price": 1932.24,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUGMEJWC",
+      "price": 1454.44,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUYPRVXM",
+      "price": 912.65,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUWOKTJA",
+      "price": 4570.99,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUECUGVR",
+      "price": 387.33,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUQSYIXI",
+      "price": 4361.6,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUKGZZAR",
+      "price": 2736.58,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUMFGMFD",
+      "price": 4286.79,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUGGHDTF",
+      "price": 1588.36,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUYOOBMG",
+      "price": 3782.08,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUOENWYN",
+      "price": 3827.48,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUTJWGVI",
+      "price": 3744.34,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUDMLXAZ",
+      "price": 4031.19,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUUTVVUT",
+      "price": 180.4,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUYPTXNF",
+      "price": 2352.12,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUZFGKTL",
+      "price": 4147.85,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUGAAXYJ",
+      "price": 2565.69,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUZEDDGE",
+      "price": 202.4,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUBWWGCA",
+      "price": 3263.6,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUMATBBR",
+      "price": 3448.89,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUCFHZGO",
+      "price": 381.04,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUSIYYDH",
+      "price": 4760.83,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUPTMTZW",
+      "price": 2873.81,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUEJZVUE",
+      "price": 74.87,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUECNQAH",
+      "price": 2631.57,
+      "in_stock": true
+    },
+    {
+      "sku": "SKURFMDKS",
+      "price": 853.33,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUUAIUKU",
+      "price": 3608.6,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUOFYPAM",
+      "price": 3026.55,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUBMDYOA",
+      "price": 3993.66,
+      "in_stock": true
+    },
+    {
+      "sku": "SKUPCTALE",
+      "price": 550.24,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUOTMBKD",
+      "price": 604.15,
+      "in_stock": false
+    },
+    {
+      "sku": "SKUIXUTUZ",
+      "price": 559.24,
+      "in_stock": true
+    }
+  ]
+}

@@ -1,21 +1,21 @@
 model,query,avg_ms,min_ms,max_ms,runs
-Kimball Star Schema,Total sales by region,0.38,0.287,0.691,5
-Kimball Star Schema,Top 10 customers by spend,0.59,0.474,0.757,5
-Kimball Star Schema,Monthly sales trend,0.489,0.443,0.533,5
-Kimball Star Schema,Sales by product category,0.388,0.357,0.452,5
-Kimball Star Schema,Avg quantity sold per region,0.332,0.284,0.427,5
-Inmon 3NF,Total sales by region,0.334,0.284,0.486,5
-Inmon 3NF,Top 10 customers by spend,0.513,0.465,0.624,5
-Inmon 3NF,Monthly sales trend,0.843,0.744,0.986,5
-Inmon 3NF,Sales by product category,0.409,0.355,0.518,5
-Inmon 3NF,Avg quantity sold per region,0.295,0.284,0.324,5
-Data Vault 2.0,Total sales by region,0.371,0.305,0.557,5
-Data Vault 2.0,Top 10 customers by spend,1.057,0.914,1.33,5
-Data Vault 2.0,Monthly sales trend,0.82,0.761,0.921,5
-Data Vault 2.0,Sales by product category,0.646,0.562,0.86,5
-Data Vault 2.0,Avg quantity per region,0.34,0.284,0.432,5
-Unified DW + AI,Total sales by region,0.394,0.296,0.686,5
-Unified DW + AI,Top 10 customers by spend,0.378,0.36,0.403,5
-Unified DW + AI,Monthly sales trend,0.387,0.325,0.475,5
-Unified DW + AI,Sales by product category,0.307,0.261,0.397,5
-Unified DW + AI,High-value sales by tier,0.153,0.137,0.201,5
+Kimball Star Schema,Total sales by region,0.386,0.298,0.693,5
+Kimball Star Schema,Top 10 customers by spend,0.768,0.724,0.913,5
+Kimball Star Schema,Monthly sales trend,0.479,0.442,0.576,5
+Kimball Star Schema,Sales by product category,0.589,0.512,0.691,5
+Kimball Star Schema,Avg quantity sold per region,0.326,0.297,0.382,5
+Inmon 3NF,Total sales by region,0.345,0.295,0.526,5
+Inmon 3NF,Top 10 customers by spend,0.527,0.484,0.634,5
+Inmon 3NF,Monthly sales trend,0.759,0.741,0.811,5
+Inmon 3NF,Sales by product category,0.443,0.363,0.685,5
+Inmon 3NF,Avg quantity sold per region,0.479,0.457,0.53,5
+Data Vault 2.0,Total sales by region,0.36,0.3,0.562,5
+Data Vault 2.0,Top 10 customers by spend,1.107,1.004,1.368,5
+Data Vault 2.0,Monthly sales trend,0.797,0.755,0.873,5
+Data Vault 2.0,Sales by product category,0.636,0.546,0.847,5
+Data Vault 2.0,Avg quantity per region,0.306,0.294,0.344,5
+Unified DW + AI,Total sales by region,0.358,0.303,0.537,5
+Unified DW + AI,Top 10 customers by spend,0.391,0.369,0.433,5
+Unified DW + AI,Monthly sales trend,0.334,0.32,0.368,5
+Unified DW + AI,Sales by product category,0.283,0.268,0.318,5
+Unified DW + AI,High-value sales by tier,0.124,0.112,0.149,5
