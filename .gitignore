@@ -1,49 +1,18 @@
-*.log
-.DS_Store
-.env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-/.fleet
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
-/auth.json
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
-Homestead.json
-Homestead.yaml
-Thumbs.db
+# Databases (large binary files)
+data/*.db
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
-*.egg-info/
 
-# IDE / OS
-.vscode/
-.idea/
-*.swp
-*.swo
-desktop.ini
+# Jupyter
+.ipynb_checkpoints/
 
-# MongoDB local data (never commit database files)
-/data/
+# Virtual environments
+venv/
+.env/
 
-# Laravel extras
-*.sqlite
-*.sqlite-wal
-*.sqlite-shm
-/storage/logs/*.log
-/bootstrap/cache/*.php
+# OS files
+.DS_Store
+Thumbs.db
