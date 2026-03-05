@@ -186,7 +186,7 @@ class PDF(FPDF):
     def header(self):
         self.set_font("Helvetica", "B", 14)
         self.set_text_color(30, 60, 120)
-        self.cell(0, 12, "Unified Data Warehouse — Research Evaluation Report", align="C", new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 12, "Unified Data Warehouse - Research Evaluation Report", align="C", new_x="LMARGIN", new_y="NEXT")
         self.set_font("Helvetica", "", 9)
         self.set_text_color(100, 100, 100)
         self.cell(0, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}", align="C", new_x="LMARGIN", new_y="NEXT")
@@ -283,7 +283,7 @@ def build_pdf(r, chart_paths):
     if r["prediction"]:
         p = r["prediction"]
         pdf.kv("Prediction (Random Forest)",
-               f"Accuracy: {p.get('accuracy')}  F1 (HV): {p.get('f1_hv')}  CV: {p.get('cv_accuracy_mean')} ± {p.get('cv_accuracy_std')}")
+               f"Accuracy: {p.get('accuracy')}  F1 (HV): {p.get('f1_hv')}  CV: {p.get('cv_accuracy_mean')} +/- {p.get('cv_accuracy_std')}")
 
     # --- Conclusions ---
     pdf.section_title("7. Conclusions")
