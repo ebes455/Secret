@@ -165,6 +165,23 @@ def export_excel(r):
 # PDF report
 # ─────────────────────────────────────────────────────────────────────────────
 
+def sanitize(text):
+    """Replace characters outside Latin-1 range for Helvetica compatibility."""
+    replacements = {
+        "\u2014": "-",   # em dash
+        "\u2013": "-",   # en dash
+        "\u2018": "'",   # left single quote
+        "\u2019": "'",   # right single quote
+        "\u201c": '"',   # left double quote
+        "\u201d": '"',   # right double quote
+        "\u2022": "-",   # bullet
+        "\u00b1": "+/-", # plus-minus
+    }
+    for k, v in replacements.items():
+        text = text.replace(k, v)
+    return text
+
+
 class PDF(FPDF):
     def header(self):
         self.set_font("Helvetica", "B", 14)
@@ -185,21 +202,21 @@ class PDF(FPDF):
         self.set_fill_color(230, 240, 255)
         self.set_text_color(20, 20, 80)
         self.set_font("Helvetica", "B", 11)
-        self.cell(0, 9, f"  {text}", fill=True, new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 9, f"  {sanitize(text)}", fill=True, new_x="LMARGIN", new_y="NEXT")
         self.ln(2)
 
     def body_text(self, text):
         self.set_font("Helvetica", "", 10)
         self.set_text_color(40, 40, 40)
-        self.multi_cell(0, 6, text)
+        self.multi_cell(0, 6, sanitize(text))
         self.ln(2)
 
     def kv(self, key, val):
         self.set_font("Helvetica", "B", 10)
         self.set_text_color(40, 40, 40)
-        self.cell(70, 7, key + ":", ln=False)
+        self.cell(70, 7, sanitize(str(key)) + ":", ln=False)
         self.set_font("Helvetica", "", 10)
-        self.cell(0, 7, str(val), new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 7, sanitize(str(val)), new_x="LMARGIN", new_y="NEXT")
 
     def add_image_if_exists(self, path, w=180):
         if path and os.path.exists(path):
@@ -277,6 +294,7 @@ def build_pdf(r, chart_paths):
         "predictive analytics directly on the warehouse layer. This makes it the most suitable architecture "
         "for large organizations with complex, heterogeneous data source environments."
     )
+
 
     out = os.path.join(RESULTS_DIR, "research_report.pdf")
     pdf.output(out)
